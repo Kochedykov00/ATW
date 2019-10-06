@@ -1,0 +1,1561 @@
+<script type="text/javascript" src="google.js" ></script><script type="text/javascript">showBanner();</script>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>. ������� ��������� <Windows>: ��������� <Windows XP>, ��������� <Windows 98>, ��������� <Windows XP>, ��������� <Windows 98>, ����������� <Windows XP>, ����������� <Windows 98>, ������ ���������� ( ��������� Windows, ��������� Windows XP, ��������� Windows 98, ��������� WindowsXP, ��������� Windows98, ��������� ������� ��, ��������� ������� Windows, ������ Windows, ����������� Windows 98, ����������� Windows XP, ��������� � ����������� Windows 9x, ���������  BIOS ����������, ����������� BIOS ����������, ��������� ��� ������ � ��������, ����������� ���������� �������, ��������� � ����������� �������, ��������� �������, �������������� �������, ������ (overclocking) ����������, ��������� ��������� ����������� � ���� ��������, �������� ��������� ����, �������� �����������, ������� ������������ ��������, ������������ ����, ������������ �������� )</title>
+
+<meta http-equiv=content-Type content="text/html;charset=windows-1251">
+<meta http-equiv=content-Language content=ru>
+<meta name="generator" content="MSHTML 6.00.2719.2200">
+<meta name="keywords" content="��������� Windows XP, ��������� Windows Vista, ��������� Windows 98, ��������� Windows XP, ������ ����������� ������, ������ �����������, ��������� Windows Vista, ��������� Windows 98, ����������� Windows XP, ����������� Windows 98, ��������� � ����������� Windows XP, ��������� � ����������� 98, �������, ��������� � ����������� ����, ��������� � ����������� bios, ��������� ������, ��������� �������, ����������� �������, ��������� � ����������� �������, ��������� ���������, ������ ����������, overclocking, ������������ �������, 95, NT, 98, 98se, Me, 2000, XP, dos, ms-dos, ���������, �����������, installation, ��������, �������, �������, ���������, ��������� �����, msbatch, fdisk, autoexec, config, msdos, system, boot, regedit, internet, overclocking, ��������� ����, web, network, modem, �����, ������, ����, soft, �������, ������������ �������, ��������, ����">
+<meta name="description" content="C������ ��������� Windows XP, c������ ��������� Windows 98, ��������� Windows XP, ������ ����������� ������, ������ �����������, ��������� Windows Vista, ��������� Windows 98, ��������� Windows XP, ��������� Windows Vista, ��������� Windows 98, ����������� Windows XP, ����������� Windows 98, ��������� � ����������� ��������� ������ Windows XP, ��������� � ����������� ��������� ������ Windows 98, ��������� � ����������� BIOS ����������, ������ Windows � ��� ���������, ����������� ���������� ������� Windows, ������ (overclocking) ����������, ��������� ��������� ����������� � ���� ��������, �������� ��������� ����, �������� �����������, ������� ������������ ��������, ������������ ����, ������������ ��������">
+<meta name="author" content="e2ard">
+<meta name="revisit-after" content="7 days">
+<meta name="robots" content="index, follow">
+<meta name="robots" content="index, all">
+<meta name="distribution" content="global">
+
+
+<link rel="stylesheet" href="style.css"  type="text/css">
+
+
+
+<script language=JavaScript1.2 src="menu.js" ></script>
+
+
+
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" link="#3300df" alink="#ff0000" vlink="#cc00cc" onLoad="if (ie) {playover();playdown()};if (window != top) top.location.href = location.href" marginheight="0" marginwidth="0">
+<BGSOUND id=sound>
+<a name="0"></a>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td>
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+	<tr>
+		<td>
+		<script language="JavaScript">
+		<!-- Begin
+		change_logo();
+		// End -->
+		</script>
+			<tbody>
+				<tr>
+				    <td width="200" height="80" valign="middle">
+						<table width="100%" cellspacing="0" cellpadding="0" border="0">
+						<tbody>
+							<tr>
+							    <td>
+								
+								<a href="#X" onclick="alert(here)" class="ris" onmouseover="playover()">
+								<img src="logo.gif"  width="200" height="80" border="0" alt="������� �������� &quot;������� ��������� �Windows�: ���������, ��������� � ����������� �Windows XP� � �Windows 98�&quot;"></a></td>
+								
+							</tr>
+						</tbody>
+						</table>
+					</td>
+					<td align="center" valign="top" id="tab_v">
+
+
+
+
+<div align="center" style="width:600px;">
+<br>
+<h2>
+<b><U><a href="javascript:if(confirm('http://www.site-sell.ru/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.site-sell.ru/'" >������� ������</a></U></b>
+<br>
+�������� ����� � ������ ��������� �������� � ��������������. 
+</h2>
+
+
+</div>
+
+
+
+
+
+					</td>
+					<td><noindex>
+					<div style="display:none">
+					<!--begin of Rambler's Top100 code -->
+					<a href="javascript:if(confirm('http://top100.rambler.ru/top100/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://top100.rambler.ru/top100/'" >
+					<img src="top100.cnt-477223.gif"  width=1 height=1 border=0></a>
+					<!--end of Top100 code--><br>
+					<!--NUMBER ONE COUNTER-->
+					<script language="javascript"><!--
+					document.write("<img src=\"http://cnt.one.ru/cgi-bin/cnt.cgi?id=209199",
+					"&r="+escape(parent.document.referrer),"\" width=1 height=1 ",
+					"border=0 alt=\"become number one\">");//--></script><noscript>
+					<img src="cnt.cgi-id=209199" 
+					width=1 height=1 alt="be number one" border=0></noscript>
+					<!--NUMBER ONE COUNTER-->
+					</td>
+					<td valign="top" align="right" width="24">
+					<a onmouseover="playover()" onmousedown="playdown()" href="index.shtml-for_printing.htm" ><img src="print.gif"  alt="������ ��� ������" width="24" height="23" hspace="0" 
+					
+					vspace="0"
+					
+
+					 border="0"></a></noindex><br>
+					<a href="#X" onmousedown="if (ie) {this.style.behavior='url(#default#homepage)';this.setHomePage('http://win-da.by.ru');} else { alert('� ���������, � ����� �������� ��� ������� ����������.�������� ��������� �������� &quot;������� ��������� �Windows� (http://win-da.by.ru)&quot; ��������������');return false};playdown()" onmouseover="playover();window.status='������� ���������';return true" onmouseout="window.status='';return true"><img src="home.gif"  alt="������� ���������" width="24" height="20" hspace="0" vspace="0" border="0"></a><br>
+					<a href="#X" onmousedown="if (ie) {window.external.addFavorite('http://win-da.by.ru', '.������� ��������� �Windows� (http://win-da.by.ru)');} else if (nn) { alert('� ���������, � ����� �������� ��� ������� ����������. �������� �������� &quot;������� ��������� �Windows� (http://win-da.by.ru)&quot; � ��������� ��������������, ��� ���� ������� CTRL+D');return false} else { alert('� ���������, � ����� �������� ��� ������� ����������. �������� �������� &quot;������� ��������� �Windows� (http://win-da.by.ru)&quot; � ��������� ��������������');return false};playdown()" onmouseover="playover();window.status='�������� � ���������';return true" onmouseout="window.status='';return true"><img src="fav.gif"  alt="�������� � ���������" width="24" height="20" hspace="0" vspace="0" border="0"></a>
+					</div>
+					</td>
+				</tr>
+			</tbody>
+			</table>
+			<table class="title_top" background="fon_title.gif"  width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tbody>
+				<tr>
+					<td width="150">&nbsp; 
+					</td>
+					<td align="center" id="tab">
+					
+					
+					
+
+					
+						<table cellSpacing="0" cellPadding="0" border="0">
+						<tbody>
+							<tr valign="middle">
+								<td id="aa" class="si"><a 
+								onmouseover="showMenus('aaa','on',(xl('aa')-4)+','+(yt('aa')+30));playover()" 
+								onmouseout="killMenus('aaa')" 
+								href="#X" onclick="alert(obsh)"
+								
+								class="si" onmouseover="playover()" onmousedown="playdown()">���������</a>
+								
+								
+			<div id="aaa" onmouseover="showMenus('aaa','on','')" onmouseout="killMenus('aaa')" 
+			style="BORDER-RIGHT: #0A5FAF 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #0A5FAF 1px solid; PADDING-LEFT: 4px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #0A5FAF 1px solid; WIDTH: 160px; PADDING-TOP: 5px; BORDER-BOTTOM: #0A5FAF 1px solid; POSITION: absolute; BACKGROUND-COLOR: #8AC5FF">
+			
+			<a class="menusmall" href="install.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����� �������</a><br>
+			
+			
+	
+			
+			<a class="menusmall" href="#&nbsp;" onmouseover="playover()" onmousedown="playdown()">
+			<div id="foldheader">�&nbsp;��������� �Windows 98�</div></a>
+<script language="JavaScript">
+<!-- Begin
+if (ie)
+document.write('<div style="display:none">');
+else
+document.write('<div>');
+// End -->
+</script>
+			
+			<div>
+
+			
+			<a class="menusmall" href="install_98.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���������� ���������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="keys_98.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;����� ���������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="msbatch.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���� �MSBATCH.INF�</a><br>
+			
+			
+			</div>
+			</div>
+
+	
+			
+			<a class="menusmall" href="#&nbsp;" onmouseover="playover()" onmousedown="playdown()">
+			<div id="foldheader">�&nbsp;��������� �Windows XP�</div></a>
+<script language="JavaScript">
+<!-- Begin
+if (ie)
+document.write('<div style="display:none">');
+else
+document.write('<div>');
+// End -->
+</script>
+			
+			<div>
+
+			
+			<a class="menusmall" href="install_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���������� ���������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="ntfs.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;�������� ������� NTFS</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="ntfs_fat.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��������� NTFS � FAT</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="param_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��������� ���������</a><br>
+			
+			
+			</div>
+			</div>
+	
+	
+			
+			<a class="menusmall" href="save.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;���������� ������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="fdisk.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;��������� �FDisk�</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="sys_min.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;��������� ����������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="update.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;���������� � ��������</a><br>
+			
+			
+			</div>
+								</td>
+								<td valign="top"><img src="rect.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="11" height="25" hspace="0" vspace="0" border="0" align="middle"></td>
+								<td id="bb" class="si"><a 
+								onmouseover="showMenus('bbb','on',(xl('bb')-4)+','+(yt('bb')+30));playover()" 
+								onmouseout="killMenus('bbb')" 
+								href="#X" onclick="alert(obsh)"
+								
+								class="si" onmouseover="playover()" onmousedown="playdown()">�������</a>
+								
+								
+			<div id="bbb" onmouseover="showMenus('bbb','on','')" onmouseout="killMenus('bbb')" 
+			style="BORDER-RIGHT: #0A5FAF 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #0A5FAF 1px solid; PADDING-LEFT: 4px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #0A5FAF 1px solid; WIDTH: 160px; PADDING-TOP: 5px; BORDER-BOTTOM: #0A5FAF 1px solid; POSITION: absolute; BACKGROUND-COLOR: #8AC5FF">
+			
+			<a class="menusmall" href="system.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����� �������</a><br>
+			
+			
+		
+			
+			<a class="menusmall" href="#&nbsp;" onmouseover="playover()" onmousedown="playdown()">
+			<div id="foldheader">�&nbsp;��������� �Windows 98�</div></a>
+<script language="JavaScript">
+<!-- Begin
+if (ie)
+document.write('<div style="display:none">');
+else
+document.write('<div>');
+// End -->
+</script>
+			
+			<div>
+
+			
+			<a class="menusmall" href="system_98.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��������� ���������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="bootmenu_98.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;����������� ����</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="production_98.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������������������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="config.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���� �Config.sys�</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="autoexec.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���� �Autoexec.bat�</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="msdos.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���� �Msdos.sys�</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="sys.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���� �System.ini�</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="recovery_98.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;�������������� �������</a><br>
+			
+			
+			</div>
+			</div>
+
+			
+			<a class="menusmall" href="#&nbsp;" onmouseover="playover()" onmousedown="playdown()">
+			<div id="foldheader">�&nbsp;��������� �Windows XP�</div></a>
+<script language="JavaScript">
+<!-- Begin
+if (ie)
+document.write('<div style="display:none">');
+else
+document.write('<div>');
+// End -->
+</script>
+			
+			<div>
+
+			
+			<a class="menusmall" href="system_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��������� ���������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="production_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������������������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="services_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������ (�������)</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="serv_dis_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���������� ��������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="security_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;����������� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="boot_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���� �BOOT.INI� (XP)</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="recovery_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;�������������� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="msc_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������� (��������)</a><br>
+			
+			
+			</div>
+			</div>
+
+			
+			<a class="menusmall" href="excessive.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="hotkeys.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;������� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="winprog.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;������� ���������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="boot_nt.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;���� �BOOT.INI� (NT)</a><br>
+			
+			
+			</div>
+								</td>
+								<td valign="middle"><img src="rect.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="11" height="25" hspace="0" vspace="0" border="0" align="middle"></td>
+								<td id="cc" class="si"><a 
+								onmouseover="showMenus('ccc','on',(xl('cc')-4)+','+(yt('cc')+30));playover()" 
+								onmouseout="killMenus('ccc')" 
+								href="#X" onclick="alert(obsh)"
+								
+								class="si" onmouseover="playover()" onmousedown="playdown()">������</a>
+								
+								
+			<div id="ccc" onmouseover="showMenus('ccc','on','')" onmouseout="killMenus('ccc')" 
+			style="BORDER-RIGHT: #0A5FAF 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #0A5FAF 1px solid; PADDING-LEFT: 4px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #0A5FAF 1px solid; WIDTH: 160px; PADDING-TOP: 5px; BORDER-BOTTOM: #0A5FAF 1px solid; POSITION: absolute; BACKGROUND-COLOR: #8AC5FF">
+			
+			<a class="menusmall" href="registry.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="#&nbsp;" onmouseover="playover()" onmousedown="playdown()">
+			<div id="foldheader">�&nbsp;����������� �������</div></a>
+<script language="JavaScript">
+<!-- Begin
+if (ie)
+document.write('<div style="display:none">');
+else
+document.write('<div>');
+// End -->
+</script>
+			
+			<div>
+
+			
+			<a class="menusmall" href="access.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="accesscontrol.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������ ����������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="accessdesktop.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������� ����</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="accessexplorer.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="accessnet.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��������� ����</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="accesspass.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="accessstart.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���� �����</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="accesssys.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��������� ���������</a><br>
+			
+			</div>
+			</div>
+	
+			
+			<a class="menusmall" href="#&nbsp;" onmouseover="playover()" onmousedown="playdown()">
+			<div id="foldheader">�&nbsp;�������� �������</div></a>
+<script language="JavaScript">
+<!-- Begin
+if (ie)
+document.write('<div style="display:none">');
+else
+document.write('<div>');
+// End -->
+</script>
+			
+			<div>
+
+			
+			<a class="menusmall" href="profit.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="profitdesktop.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������� ����</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="profitexplorer.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="profitstart.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���� �����</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="profitsys1.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��������� ���������(1)</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="profitsys2.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��������� ���������(2)</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="profittask.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������ �����</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="profitWMP.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;�Windows Media Player�</a><br>
+			
+			</div>
+			</div>
+
+			
+			<a class="menusmall" href="capacity1.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;������������������(1)</a><br>
+			
+	
+
+			
+			<a class="menusmall" href="capacity2.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;������������������(2)</a><br>
+			
+			
+			
+			
+			<a class="menusmall" href="spare.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="reg.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;��������� reg-�����</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="prog.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;���������</a><br>
+			
+			
+			</div>
+								</td>
+								<td valign="middle"><img src="rect.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="11" height="25" hspace="0" vspace="0" border="0" align="middle"></td>
+								<td id="dd" class="si"><a 
+								onmouseover="showMenus('ddd','on',(xl('dd')-4)+','+(yt('dd')+30));playover()" 
+								onmouseout="killMenus('ddd')" 
+								href="#X" onclick="alert(obsh);" 
+								
+								class="si" onmouseover="playover()" onmousedown="playdown()">��������</a>
+								
+								
+			<div id="ddd" onmouseover="showMenus('ddd','on','')" onmouseout="killMenus('ddd')" 
+			style="BORDER-RIGHT: #0A5FAF 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #0A5FAF 1px solid; PADDING-LEFT: 4px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #0A5FAF 1px solid; WIDTH: 150px; PADDING-TOP: 5px; BORDER-BOTTOM: #0A5FAF 1px solid; POSITION: absolute; BACKGROUND-COLOR: #8AC5FF">
+			
+			<a class="menusmall" href="internet.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="speed.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;���������� ��������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="time.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;���������� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="#&nbsp;" onmouseover="playover()" onmousedown="playdown()">
+			<div id="foldheader">�&nbsp;Internet Explorer</div></a>
+<script language="JavaScript">
+<!-- Begin
+if (ie)
+document.write('<div style="display:none">');
+else
+document.write('<div>');
+// End -->
+</script>
+			
+			<div>
+			
+			<a class="menusmall" href="ie.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="ieaccess.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;����������� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="iepass&forms.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������ � �����</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="hotkeys_ie_.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������� ������� IE</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="ie_xp_sp2.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��������� SP2</a><br>
+			
+			</div>
+			</div>
+			</div>
+								</td>
+								<td valign="middle"><img src="rect.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="11" height="25" hspace="0" vspace="0" border="0" align="middle"></td>
+								<td id="ee" class="si"><a 
+								onmouseover="showMenus('eee','on',(xl('ee')-4)+','+(yt('ee')+30));playover()" 
+								onmouseout="killMenus('eee')" 
+								href="#X" onclick="alert(obsh)"								
+								
+								class="si" onmouseover="playover()" onmousedown="playdown()">����</a>
+								
+								
+			<div id="eee" onmouseover="showMenus('eee','on','')" onmouseout="killMenus('eee')" 
+			style="BORDER-RIGHT: #0A5FAF 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #0A5FAF 1px solid; PADDING-LEFT: 4px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #0A5FAF 1px solid; WIDTH: 145px; PADDING-TOP: 5px; BORDER-BOTTOM: #0A5FAF 1px solid; POSITION: absolute; BACKGROUND-COLOR: #8AC5FF">
+			
+			<a class="menusmall" href="bios.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="#&nbsp;" onmouseover="playover()" onmousedown="playdown()">
+			<div id="foldheader">�&nbsp;Award-����</div></a>
+<script language="JavaScript">
+<!-- Begin
+if (ie)
+document.write('<div style="display:none">');
+else
+document.write('<div>');
+// End -->
+</script>
+			
+			<div>
+	
+			
+			<a class="menusmall" href="award.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;����� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="power.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������������������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="load.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;����� ��������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="errors.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;������ � �������</a><br>
+			
+
+			
+			
+			<a class="menusmall" href="#&nbsp;" onmouseover="playover()" onmousedown="playdown()">
+			<div id="foldheader">&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��������</div></a>
+<script language="JavaScript">
+<!-- Begin
+if (ie)
+document.write('<div style="display:none">');
+else
+document.write('<div>');
+// End -->
+</script>
+			
+			<div>
+
+			
+			<a class="menusmall" href="aflash.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;����� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="line.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��������� ������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="dialog.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;���������� �����</a><br>
+			
+			
+			</div>
+			</div>
+			</div>
+
+								</td>
+								<td valign="middle"><img src="rect.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="11" height="25" hspace="0" vspace="0" border="0" align="middle"></td>
+								<td id="ff" class="si"><a 
+								onmouseover="showMenus('fff','on',(xl('ff')-4)+','+(yt('ff')+30));playover()" 
+								onmouseout="killMenus('fff')" 
+								href="#X" onclick="alert(obsh)"
+								
+								class="si" onmouseover="playover()" onmousedown="playdown()">����</a>
+								
+								
+			<div id="fff" onmouseover="showMenus('fff','on','')" onmouseout="killMenus('fff')" 
+			style="BORDER-RIGHT: #0A5FAF 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #0A5FAF 1px solid; PADDING-LEFT: 4px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #0A5FAF 1px solid; WIDTH: 160px; PADDING-TOP: 5px; BORDER-BOTTOM: #0A5FAF 1px solid; POSITION: absolute; BACKGROUND-COLOR: #8AC5FF">
+			
+			<a class="menusmall" href="network.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="inst.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;���������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="conf_98.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;���������������� (98)</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="conf_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;���������������� (XP)</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="modem_98.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;�������� ���������� (98)</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="modem_xp.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;�������� ���������� (XP)</a><br>
+			
+			
+			</div>
+								</td>
+								<td valign="middle"><img src="rect.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="11" height="25" hspace="0" vspace="0" border="0" align="middle"></td>
+								<td id="gg" class="si"><a 
+								onmouseover="showMenus('ggg','on',(xl('gg')-4)+','+(yt('gg')+30));playover()" 
+								onmouseout="killMenus('ggg')" 
+								href="#X" onclick="alert(obsh)"
+								
+								class="si" onmouseover="playover()" onmousedown="playdown()">������</a>
+								
+								
+			<div id="ggg" onmouseover="showMenus('ggg','on','')" onmouseout="killMenus('ggg')" 
+			style="BORDER-RIGHT: #0A5FAF 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #0A5FAF 1px solid; PADDING-LEFT: 4px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #0A5FAF 1px solid; WIDTH: 140px; PADDING-TOP: 5px; BORDER-BOTTOM: #0A5FAF 1px solid; POSITION: absolute; BACKGROUND-COLOR: #8AC5FF">
+			
+			<a class="menusmall" href="overclocking.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="premise.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;�����������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="cpu.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;������ ����������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="voltage.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;���������� ����</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="softover.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����-������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="video.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;������ ����������</a><br>
+			
+			
+			</div>
+								</td>
+								<td valign="middle"><img src="rect.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="11" height="25" hspace="0" vspace="0" border="0" align="middle"></td>
+								<td id="ll" class="si"><a 
+								onmouseover="showMenus('lll','on',(xl('ll')-4)+','+(yt('ll')+30));playover()" 
+								onmouseout="killMenus('lll')" 
+								href="#X" onclick="alert(obsh)"
+								
+								class="si" onmouseover="playover()" onmousedown="playdown()">FAQ</a>
+								
+								
+			<div id="lll" onmouseover="showMenus('lll','on','')" onmouseout="killMenus('lll')" 
+			style="BORDER-RIGHT: #0A5FAF 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #0A5FAF 1px solid; PADDING-LEFT: 4px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #0A5FAF 1px solid; WIDTH: 140px; PADDING-TOP: 5px; BORDER-BOTTOM: #0A5FAF 1px solid; POSITION: absolute; BACKGROUND-COLOR: #8AC5FF">
+			
+			<a class="menusmall" href="faq.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����� �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="faq_soft_01.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="faq_hard_01.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="faq_net_01.shtml.htm"  onmouseover="playover()">
+			�&nbsp;���� � ������</a><br>
+			
+			
+			</div>
+								</td>
+								<td valign="middle"><img src="rect.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="11" height="25" hspace="0" vspace="0" border="0" align="middle"></td>
+								<td id="hh" class="si"><a 
+								onmouseover="showMenus('hhh','on',(xl('hh')-4)+','+(yt('hh')+30));playover()" 
+								onmouseout="killMenus('hhh')" 
+								href="#X" onclick="alert(odin)"
+								
+								class="si" onmouseover="playover()" onmousedown="playdown()">�������</a>
+								
+								
+			<div id="hhh" onmouseover="showMenus('hhh','on','')" onmouseout="killMenus('hhh')" 
+			style="BORDER-RIGHT: #0A5FAF 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #0A5FAF 1px solid; PADDING-LEFT: 4px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #0A5FAF 1px solid; WIDTH: 140px; PADDING-TOP: 5px; BORDER-BOTTOM: #0A5FAF 1px solid; POSITION: absolute; BACKGROUND-COLOR: #8AC5FF">
+			
+			<a class="menusmall" href="dict_a.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;������������ �������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="acronyms.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;��������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="fido.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;����� �����</a><br>
+			
+			
+			</div>
+								</td>
+								<td valign="middle"><img src="rect.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="11" height="25" hspace="0" vspace="0" border="0" align="middle"></td>
+								<td id="jj" class="si"><a 
+								onmouseover="showMenus('jjj','on',(xl('jj')-4)+','+(yt('jj')+30));playover()" 
+								onmouseout="killMenus('jjj')" 
+								href="#X" onclick="alert(odin)"
+								
+								class="si" onmouseover="playover()" onmousedown="playdown()">����</a>
+								
+								
+			<div id="jjj" onmouseover="showMenus('jjj','on','')" onmouseout="killMenus('jjj')" 
+			style="BORDER-RIGHT: #0A5FAF 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #0A5FAF 1px solid; PADDING-LEFT: 4px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #0A5FAF 1px solid; WIDTH: 150px; PADDING-TOP: 5px; BORDER-BOTTOM: #0A5FAF 1px solid; POSITION: absolute; BACKGROUND-COLOR: #8AC5FF">
+			
+			<a class="menusmall" href="anekdots_01.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;������������ ��������</a><br>
+			
+						
+			
+			<a class="menusmall" href="aphorisms_01.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;��������</a><br>
+			
+						
+			
+			<a class="menusmall" href="marshrutka.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			�&nbsp;������� � ����������</a><br>
+			
+												
+			</div>
+								</td>
+								<td valign="middle"><img src="rect.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="11" height="25" hspace="0" vspace="0" border="0" align="middle"></td>
+								<td id="kk" class="si"><a 
+								onmouseover="showMenus('kkk','on',(xl('kk')-4)+','+(yt('kk')+30));playover()" 
+								onmouseout="killMenus('kkk')" 
+								href="#X" onclick="alert(odin)"
+								
+								class="si" onmouseover="playover()" onmousedown="playdown()">������</a>
+								
+								
+			<div id="kkk" onmouseover="showMenus('kkk','on','')" onmouseout="killMenus('kkk')" 
+			style="BORDER-RIGHT: #0A5FAF 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #0A5FAF 1px solid; PADDING-LEFT: 4px; VISIBILITY: hidden; PADDING-BOTTOM: 2px; BORDER-LEFT: #0A5FAF 1px solid; WIDTH: 185px; PADDING-TOP: 5px; BORDER-BOTTOM: #0A5FAF 1px solid; POSITION: absolute; BACKGROUND-COLOR: #8AC5FF">			
+
+			
+			<a class="menusmall" href="#&nbsp;" onmouseover="playover()" onmousedown="playdown()">
+			<div id="foldheader">�&nbsp;�������� ������</div></a>
+<script language="JavaScript">
+<!-- Begin
+if (ie)
+document.write('<div style="display:none">');
+else
+document.write('<div>');
+// End -->
+</script>
+			
+			<div>
+			
+			<a class="menusmall" href="links_adv.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;��� ���������</a><br>
+			
+			
+
+			
+			<a class="menusmall" href="links_adv_cat.shtml.htm"  onmouseover="playover()" onmousedown="playdown()">
+			&nbsp;&nbsp;&nbsp;&nbsp;�&nbsp;�� ����������</a><br>
+			
+			
+			</div>
+			</div>
+			</div>
+								</td>
+							</tr>
+						</tbody>
+						</table>
+						<br>
+						<div style="height:15px;">
+						
+					<script type="text/javascript"><!--
+google_ad_client = "pub-0533157337222895";
+/* win-da.by.ru ���� 728x15, ������� 24.09.09 */
+google_ad_slot = "6707678326";
+google_ad_width = 728;
+google_ad_height = 15;
+//-->
+</script>
+<script type="text/javascript"
+src="show_ads.js" >
+</script>
+											
+</div>											
+							<br>				
+						
+					</td>
+					<td rowspan="2" align="right" colspan="2" valign="top">
+					<form name="web" class="form" action="http://www.yandex.ru/yandsearch" method="get" target="_blank">
+					<nobr>
+					<input type="hidden" value="win-da.by.ru/" name="server_name">
+					<input type="hidden" value="http://win-da.by.ru/" name="serverurl">
+					<input type="hidden" value="http://win-da.by.ru/" name="referrer1">
+					<input type="hidden" value="Postman.Strana.De" name="referrer2">
+					<script language="JavaScript">
+					<!-- Begin
+					change_form_style();
+					// End -->
+					</script>
+					<input type="image" src="search.gif"  width="16" height="25" align="top" alt="Go" title="�������, ����� ������ �����" onmouseover="playover()" onmousedown="playdown()">
+					</nobr></form>
+					</td>
+				</tr>
+			</tbody>
+			</table>
+			<table class="tbl" cellSpacing="0" cellPadding="0" border="0">
+<tbody>
+	<tr>
+		<td class="tbll"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblbot"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblr"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+	</tr>
+</tbody>
+</table>
+
+		</td>
+	</tr>
+</tbody>
+</table>
+<noindex><!-- ...��� ���������� ������� �������� � � IE, � � Mozilla, � � Opera, ������, ��� �� ���, � ��� ���� - �� �����. ���� ������ �������� �� � ����, �� ������ ��������� � ���� http://win-da.by.ru/win-da_files/menu.js, ��� ��, ���... --></noindex>
+			<script language="JavaScript">
+			<!-- Begin
+			change_par();
+			// End -->
+			</script>
+
+
+
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+	<tr>
+	    <td width="120" valign="top">
+			<table class="tbl" cellSpacing="0" cellPadding="0" border="0">
+<tbody>
+	<tr>
+		<td class="tbll"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblbot"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblr"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+	</tr>
+</tbody>
+</table>
+
+			<script language="JavaScript">
+			<!-- Begin
+			change_par();
+			// End -->
+			</script>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tbody>
+				<tr>
+				    <td class="title" background="fon_title.gif"  width="100%" height="25" align="right">
+					�����&nbsp;&nbsp;<img src="offer.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="24" height="25" hspace="0" vspace="0" border="0" align="absmiddle"></td>
+				</tr>
+				<tr>
+				    <td class="side" align="right"><br>
+					<noindex>
+					���� � ��� ���� ���� ������ �������� � �� ����� �������� ��� ������� ������, �� ������ ���������� � ����  
+					<a onmouseover="playover()" onmousedown="playdown()" href="#X" class="ris" onclick="window.open('button.shtml.htm#button','','width=550,height=472,Resizable=1,Scrollbars=1')" title="ٸ������, ����� ������� ������ � ����� ����������� ����. ���� � ����� �������� ����������� ������� &quot;popup-window&quot; � �������� �">��� ������</a>.
+					<p>
+					��� �� ������ ���������� 
+					<a onmouseover="playover()" onmousedown="playdown()" href="#X" class="ris" onclick="window.open('button.shtml.htm','','width=550,height=472,Resizable=1,Scrollbars=1')" title="ٸ������, ����� ������� ������ � ����� ����������� ����. ���� � ����� �������� ����������� ������� &quot;popup-window&quot; � �������� �">��������� ������</a>.
+					<p>���� ������������ ������ ����� �� ��������� � ���� � �� ��������������� ��������� �������������� ������������, �� � ������� �������� 
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="links_adv_cat.shtml.htm"  
+			
+					title="�� �������� ��������� ������ (������������ ����������)�">������</a> � ���� �� ����� (��� ������������� � �� ������� �������� ��� �� ���� ���������). <br>��� e-mail: 
+<a href="mailto:my-computer-help@ru.ru">my-computer-help@ru.ru</a>
+					<br><br>
+					</noindex>
+					
+					
+					<ul>
+<li><a href="javascript:if(confirm('http://sad.d-base.info/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://sad.d-base.info/'" >������� ����������� ���������</a>
+<li><a href="javascript:if(confirm('http://www.rufootball.net/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.rufootball.net/'" >C��� ������� ����������� �������</a>
+<li><a href="javascript:if(confirm('http://www.ifarus.com/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.ifarus.com/'" >����������� ������</a>
+<li><a href="javascript:if(confirm('http://www.kirol.kz/  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://www.kirol.kz/'" >������������ ���������� ������</a>
+					</ul>
+					</td>
+				</tr>
+			</tbody>
+			</table>
+			<table class="tbl" cellSpacing="0" cellPadding="0" border="0">
+<tbody>
+	<tr>
+		<td class="tbll"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblbot"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblr"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+	</tr>
+</tbody>
+</table>
+
+		</td>
+	    <td width="5">&nbsp;</td>
+	    <td height="100%" valign="top">
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tbody>
+				<tr>
+					<td class="title" background="fon_title.gif"  height="25">
+					<nobr><img src="center.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="24" height="25" hspace="0" vspace="0" border="0" align="absmiddle">&nbsp;
+
+
+
+<a href="#X" onclick="alert(here)" class="si" onmouseover="playover()">�������</a>
+
+					</nobr>
+					</td>
+				</tr>
+				<tr>
+				    <td class="center" id="tab_center" bgcolor="#FFFFFF" colspan="2" valign="top">
+
+
+
+
+
+
+
+
+
+<table width="100%" height="16" cellspacing="0" cellpadding="0" border="0" class="top">
+<tr>
+<td>
+<script type="text/javascript"><!--
+google_ad_client = "pub-0533157337222895";
+/* win-da.by.ru CENTER 468x60, ������� 24.09.09 */
+google_ad_slot = "0225173607";
+google_ad_width = 468;
+google_ad_height = 60;
+//-->
+</script>
+<script type="text/javascript"
+src="show_ads.js" >
+</script>
+<br>
+</td>
+</tr>
+
+
+
+
+<tr valign="middle">
+     <td class="top" align="right" style="color: #043460;">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+�������,
+ 4
+�������,
+2011 �.
+
+</td>
+</tr>
+</table>
+
+
+<h1>������� ��������� �Windows�</h1>
+<h2><div align="center">���������, ��������� � ����������� �Windows XP� � �Windows 98�</div></h2>
+	<table width="100%" cellspacing="0" cellpadding="10" border="0">
+	<tbody>
+		<tr>
+		    <td>
+
+</td>
+		    <td width="40%" class="ep" align="center">"����� ���������� ���<br>������ ������ �����������."<br>/��������� ��� ���/<br><br><br>����� ����� ������ �������� � ������������� Windows...<br><br><br>������� ������� �� ������� ������� �� ��� ����:<br>- ��� ������� ������ � ����;<br>- �� ������ � �������� ���������;<br>- �� �������� ���� ����� � ��������.</td>
+		</tr>
+	</tbody>
+	</table>
+<p id="p">�� ���� ����� ����������� <b>��������� �Windows�</b>, 
+� ����� ����� �������� �����������  � <b>��������� �Windows�</b>, 
+� ��� ����� �������� �������� ��������������� <b>��������� �Windows XP�</b>, 
+<b>��������� �Windows XP�</b>, � ����� <b>��������� �Windows 98�</b> (<b>�Windows 98 SE�</b>), 
+<b>��������� �Windows 98�</b> (<b>�Windows 98 SE�</b>). 
+���� ��� �� �������� � ��������� �� �� ��������������� ���� ���������, �� �����, 
+���� ��� ������, ��������� �����, ����� ���� <b>�Windows�</b> �������� ������� ������, 
+��� ������, ����, �������� ��, ���� �� ������! � ��� ������, ��� �� ���� � 
+���� ��� ��������: ��������� ���������� <b>BSOD</b> 
+(�blue screen of death� � ������ ����� ������) 
+� ��������� ����� <b>������������� ������...�</b>, ��� 
+<b>�������� ������...�</b>. ������ ���, ������, 
+������� ��������� ����� ����� ��������� 
+<b>������������� ��������</b>, ��� �� ����������� 
+�����, � ��������� ��������� <b>�run-time error...�</b>  
+� �.�.
+<p id="p">��� ����� ���� ������� � ����� 
+<b>�Windows�</b>, ��� ��������� ���������� �������� ������������ ���������� 
+����������, � ���������� ��������� � ��������, ��������������� � �������, � 
+����� � ������������� ���������� ������������ (������� ����, ��� �������).
+<p id="p">������������� ��������, ������, �� ��������, ������������� ������������ �������  
+<b>��������</b>  ������������ �������� �����, ������� ������ 
+������������� 
+<a href="install.shtml.htm"  title="�� �������� &quot;��������� �Windows�&quot;"><b>��������</b></a>, 
+��� �� ������ � �������, 
+� ����� ����� ��� ��� ����������� ������������������ <b>�Windows�</b>, 
+� ������, �� �����������, � ��������� �����   
+<a href="production_98.shtml.htm"  title="�� �������� &quot;���������� ������������������ �Windows 98�&quot;"><b>�Windows 98�</b></a> ��� 
+<a href="production_xp.shtml.htm"  title="�� �������� &quot;���������� ������������������ �Windows XP�&quot;"><b>�Windows XP�</b></a> �� 
+������������ �������������� 
+(<a href="bios.shtml.htm"  title="�� �������� &quot;BIOS&quot;"><b>��������� BIOS</b></a>, 
+<a href="system.shtml.htm"  title="�� �������� &quot;��������� ��������� �Windows�&quot;"><b>����������� ��������� ������</b></a>, 
+�������������� <a href="registry.shtml.htm"  title="�� �������� &quot;������ �Windows�&quot;"><b>�������� ������� �Windows�</b></a>, 
+<a href="overclocking.shtml.htm"  title="�� �������� &quot;������&quot;"><b>overclocking</b> (<b>������</b>)</a> 
+����������, � ������ ��� ����������, ������ � ����������). 
+<a href="registry.shtml.htm"  title="�� �������� &quot;������ �Windows�&quot;"><b>���������� ������� �Windows�</b></a> 
+�������� ������� ����� ����� �����, ��� ��� ������ 
+<a href="registry.shtml.htm"  title="�� �������� &quot;������ �Windows�&quot;"><b>��������� ������� �Windows�</b></a> 
+�, ��������, <b>�������������������</b> ��������� ������� <b>�Windows�</b> �������� ������ ��� ��������� ���� ��������� �� ������������ ��������������. 
+<p id="p">� ����� ����� �� ������� ������ �� ����������� 
+<a href="network.shtml.htm"  title="�� �������� &quot;��������� ����&quot;"><b>��������� ����</b></a>, 
+� �������� ���������� �������� <b>��������� ����������</b> � ����� <b>��������</b>, ��� ��� 
+<a href="modem_98.shtml.htm"  title="�� �������� &quot;�������� ���������� (Windows 98)&quot;"><b>�Windows 98�</b></a>, ��� � ��� 
+<a href="modem_xp.shtml.htm"  title="�� �������� &quot;�������� ���������� (Windows XP)&quot;"><b>�Windows XP�</b></a>. 
+<p id="p">���� �� �� ����� ������� �� ���� ������� �� � ����� �� ������������ ��������, �� �� �������� ��������� � ������ 
+<a href="faq.shtml.htm"  title="�� �������� &quot;FAQ&quot;"><b>�FAQ�</b></a>.
+<p id="p">����� ����, �� ����� ������� 
+<a href="dict_a.shtml.htm"  title="�� �������� &quot;������� ������������ ��������&quot;"><b>������� ������������ � ����������������� ��������</b></a>, 
+� ����� ����� ����� ��������� ������� ���-����� �������� ���������. 
+� ����� �� ���������� ������ � �����, �� ������� ����������, ������� 
+<a href="anekdots_01.shtml.htm"  title="�� �������� &quot;������������ ��������&quot;"><b>������������ ��������</b></a> � 
+<a href="aphorisms_01.shtml.htm"  title="�� �������� &quot;��������&quot;"><b>��������</b></a>.
+<br>����, 
+<a href="install.shtml.htm"  title="�� �������� &quot;��������� �Windows�&quot;">��-�������...</a>
+<p id="p">���������������� ������� <a href="install.shtml.htm"  title="�����, �� �������� &quot;��������� �Windows�&quot;">�������</a>, 
+������� ������� ����� ������ ��������, �� ������� ��������������� ���������� ���� ����.
+<p>
+<b>���</b> ���������� ����� ������������ ����� ��� <b>�Windows 98� � �Windows 98 SE�</b>, 
+� �������� ����� ��� <b>�Windows 95� � �Windows Me�</b> ��� �������� 
+�����. ������������ ��� <b>�Windows NT�, �Windows 2000� � �Windows XP�</b> �������� 
+����� � ����� ������ ��� ���� ������������ ������. ������������, ������ ������ ��� 
+<b>�Windows XP�</b>, ����� ���� ����� � ��� <b>�Windows NT� � �Windows 2000�</b>.
+<p>
+<b>����</b> �������� �� ��, ��� ����� ������ �������� 
+������� �� ���, �, ����������, �� ������� ������� �����, ��� ����� ��������, � ��� ����� 
+� ������� �� ��������� � ��������� <b>�Windows�</b>, �� ��� � ����, 
+����������, �������� ���� ����. ����, � ��������, 
+� ���� ���������������� ����������, �������, � ��� �����, ���������� �� �����. 
+<p>
+<b>�����</b> �������� ��������� ������: � ����� ��� ��� ���� �����? � ��� �, �� ������ ������, ��������. 
+� ����� ������, � �� ���� ������� ��������������� �� ��, ��� ����� ���������, 
+���� �� ���������� ���������� ����� �������, �, ��� �����, �� ��, ��� ���������, 
+���� �� �� �� ����������...
+
+
+<p><div align="center" class="top"><noindex><a onmouseover="playover()" onmousedown="playdown()" href="index.shtml-for_printing.htm" >������ ��� ������</a></noindex>
+<p>
+
+
+
+
+
+
+<p align="center"><a onmouseover="playover()" onmousedown="playdown()" href="#" title="�� ���������� ��������" class="ris" onclick="if (history.length!=0) {javascript:history.back()} else {alert('���� �� ����� ? ��� ����� ������ �������� ���������� ���� ������� !')}">�����</a>
+&nbsp;||&nbsp;
+
+<a onmouseover="playover()" href="#X" onclick="alert(here)" class="ris">
+
+�������</a>
+&nbsp;||&nbsp;
+<a onmouseover="playover()" onmousedown="playdown()" href="#0" title="� ������ ��������" class="ris">������</a>
+&nbsp;||&nbsp;
+
+<a href="install.shtml.htm"  title="�����, �� �������� &quot;��������� �Windows�&quot;" class="ris" onmouseover="playover()" onmousedown="playdown()">������</a>
+<br><br>
+
+					</td>
+				</tr>
+			</tbody>
+			</table>
+		</td>
+	    <td width="5">&nbsp;</td>
+	    <td width="120" valign="top">
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tbody>
+				<tr>
+				    <td class="title" background="fon_title.gif"  width="100%" height="25">
+					<img src="rek.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="24" height="25" hspace="0" vspace="0" border="0" align="absmiddle">&nbsp;&nbsp;�������</td>
+				</tr>
+				<tr>
+				    <td class="side" align="center"><br>
+
+<!--content2--><!--check code--><!--/content2-->
+
+
+
+					</td>
+				</tr>
+			</tbody>
+			</table>
+			<table class="tbl" cellSpacing="0" cellPadding="0" border="0">
+<tbody>
+	<tr>
+		<td class="tbll"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblbot"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblr"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+	</tr>
+</tbody>
+</table>
+
+			<script language="JavaScript">
+			<!-- Begin
+			change_par();
+			// End -->
+			</script>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tbody>
+				<tr>
+				    <td class="title" background="fon_title.gif"  width="100%" height="25">
+					<img src="anek.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="24" height="25" hspace="0" vspace="0" border="0" align="absmiddle">&nbsp;&nbsp;�������</td>
+				</tr>
+				<tr>
+				    <td class="side"><br>
+					
+
+
+�� ������� ���� ��������� �� �����������, ����:
+<br>� ���������� ���� ���������� ������ ��� �������������, 
+  ���� � �������� ���������
+<br>� ���������� ���� ���������� ������
+<br>� ���������� ����.
+
+
+<br><br>
+
+<a href="anekdots_01.shtml.htm"  class="ris" title="�� �������� &quot;������������ �������� (����� 1)&quot;">��� &gt;&gt;&gt;</a>
+
+
+					<br><br>
+					</td>
+				</tr>
+			</tbody>
+			</table>
+			<table class="tbl" cellSpacing="0" cellPadding="0" border="0">
+<tbody>
+	<tr>
+		<td class="tbll"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblbot"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblr"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+	</tr>
+</tbody>
+</table>
+
+			<script language="JavaScript">
+			<!-- Begin
+			change_par();
+			// End -->
+			</script>
+
+
+
+
+
+
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tbody>
+				<tr>
+				    <td class="title" background="fon_title.gif"  width="100%" height="25">
+					<img src="new.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="24" height="25" hspace="0" vspace="0" border="0" align="absmiddle">&nbsp;&nbsp;������</td>
+				</tr>
+				<tr>
+				    <td class="side"><br>
+					������� �������� ��������� ����� ����� ����� ������ ������ ����� 
+					<noindex>
+					<a rel="nofollow" href="javascript:if(confirm('http://freesoft.ru/?id=78488  \n\nThis file was not retrieved by Teleport Pro, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?'))window.location='http://freesoft.ru/?id=78488'"  target="_blank" title="������� �������� ��������� ����� ����� ����� ������ � ������� FREESOFT.RU">�����</a>.
+					</noindex>
+					<p>
+
+					��������� �������� � ������ ���������    
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="ie_xp_sp2.shtml.htm"  
+			
+					title="�� �������� &quot;��������� ������ ��������� ������������ SP2 (�Internet Explorer� � ��������)&quot;">���������� ������ ��������� <br>������������ SP2�</a>, 
+					<br>� ����� � ������ �������� ��������� �������� <br> 
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="msc_xp.shtml.htm"  
+			
+					title="�� �������� &quot;������� (��������) �Windows XP� (��������� ��������� �Windows XP�)&quot;">���������  XP�</a> (������� ��������). 
+					<br>����� ����, ������� ������ 
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="registry.shtml.htm" 
+			
+					title="�� �������� �������">�������</a>. 
+					<p>
+
+					�� ����� �������� ����� ������    
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="faq.shtml.htm"  
+			
+					title="�� �������� &quot;FAQ&quot;">�FAQ�</a>. ��� �������� ������� ���� �� ����.
+					<br>� ����� ��������� ��������� ������ �������, � ���������:  
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="install_xp.shtml.htm" 
+			
+					title="�� �������� ���������� Windows XP�">���������� Windows XP�</a>. 
+					<p>
+
+					������� ������ ������, � ��������� ��������� ��������  
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="conf_xp.shtml.htm"  
+			
+					title="�� �������� &quot;���������������� ��������� ���� (Windows XP)&quot;">����������������� ��������� ���� <br>(Windows XP)�</a>, 
+					<br>� ����� ��������� ���������� � ������ ��������.
+					<p>
+
+					��������� ������ ��������� <a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="links_adv_cat.shtml.htm" 
+			
+					title="�� �������� ���������� Windows�">�� ����������</a>. 
+					<p>
+
+					� ������� <br>
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="install.shtml.htm" 
+			
+					title="�� �������� ���������� Windows�">���������� Windows�</a> 
+					<br>� 
+					<br>
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="system.shtml.htm" 
+			
+					title="�� �������� ���������� ���������">���������� ���������</a> 
+					<br>��������� ���������� �� �Windows XP�. 
+					<br>� ����� � ������� 
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="anekdots_01.shtml.htm" 
+			
+					title="�� �������� ������������� ���������">������������� ���������</a> ����� �� ���� ������� ������. 
+					<p>
+
+					� ������� <br>
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="registry.shtml.htm" 
+			
+					title="�� �������� �������">�������</a> 
+					<br>� 
+					<br>
+					<a onmouseover="playover()" 
+			
+					onmousedown="playdown()" href="internet.shtml.htm" 
+			
+					title="�� �������� ���������">���������</a> 
+					<br>��������� ���������� �� �Windows XP�.
+					<br><br>
+					</td>
+				</tr>
+			</tbody>
+			</table>
+			<table class="tbl" cellSpacing="0" cellPadding="0" border="0">
+<tbody>
+	<tr>
+		<td class="tbll"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblbot"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+		<td class="tblr"><IMG height="4" alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" 
+		src="spacer.gif"  
+		width="8">
+		</td>
+	</tr>
+</tbody>
+</table>
+
+			<script language="JavaScript">
+			<!-- Begin
+			change_par();
+			// End -->
+			</script>
+			<table width="100%" cellspacing="0" cellpadding="0" border="0">
+			<tbody>
+				<tr>
+				    <td class="title" background="fon_title.gif"  width="100%" height="25">
+					<img src="coun.gif"  alt="faq, ����, ��������� windows XP, ��������� �������, ��������� BIOS, ��������� ����, ��������� windows XP, ����������� windows XP, ����������� �������, ����������� BIOS, ����������� ����, ��������� windowsXP, ��������� windowsXP, ����������� windowsXP, ��������� windows ��, ����������� windows ��, ��������� windows 98, ��������� windows 98, ����������� windows 98, ��������� windows98, ��������� windows98, ����������� windows98, �������, ��������� �������, ����������� �������, ������, ��������� BIOS ����������, ����������� BIOS ����������, BIOS, ����, ������ ����������, ������ ����������, �����������, overclocking, ��������, ��������� ���������, ��������� ����, �������� �����������, �������� ����������, �����, ������� ������������ ��������, ����, ������������ ����, ��������, ������������ ��������" width="24" height="25" hspace="0" vspace="0" border="0" align="absmiddle">&nbsp;&nbsp;��������</td>
+				</tr>
+				<tr>
+			
