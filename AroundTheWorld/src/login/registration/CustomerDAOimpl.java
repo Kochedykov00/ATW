@@ -41,7 +41,7 @@ public class CustomerDAOimpl implements CustomerDAO {
         catch (Exception e) {
             System.out.println(e);
         }
-        return null;
+        return c;
     }
 }
 

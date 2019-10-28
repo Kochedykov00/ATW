@@ -8,10 +8,25 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title</title>
+    <title>Welcome</title>
 </head>
 <body>
-<h3>Welcome username!</h3>
+<%
+    request.getSession(false);
+    if (session == null) { %>
+<a href="http://localhost:8080/AroudTheWorld/login.jsp">Login</a>
+<%
+} else {
+%>
+<a href="http://localhost:8080/AroundTheWorld/logout.jsp">Logout</a><%
+    }
+    String name = request.getParameter("name");
+%>
+<br><br>
+<%
+    out.println("Welcome: " + name);
+%>
+
 
 </body>
 </html>

@@ -9,18 +9,15 @@
     <display-name>AroundTheWorld</display-name>
     <welcome-file-list>
         <welcome-file>login.jsp</welcome-file>
-        <welcome-file>welcome.jsp</welcome-file>
-        <welcome-file>register.jsp</welcome-file>
-
     </welcome-file-list>
 
     <servlet>
         <servlet-name>Login</servlet-name>
-        <servlet-class>LoginRegister</servlet-class>
+        <servlet-class>login.registration.LoginRegister</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Login</servlet-name>
-        <url-pattern>/login</url-pattern>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
 

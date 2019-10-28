@@ -1,10 +1,11 @@
 package login.registration;
 
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
 
 
-@javax.servlet.annotation.WebServlet(name = "LoginRegister")
+@javax.servlet.annotation.WebServlet(name = "LoginRegister", urlPatterns = {"/*"})
 public class LoginRegister extends javax.servlet.http.HttpServlet {
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         CustomerDAO cd = new CustomerDAOimpl();
@@ -13,16 +14,18 @@ public class LoginRegister extends javax.servlet.http.HttpServlet {
         String submitType = request.getParameter("submit");
         Customer c = cd.getCustomer(userName,password);
         if (submitType.equals("login") && c != null && c.getName() != null ){
-            request.setAttribute("message", c.getName());
-            request.getRequestDispatcher("welcome.jsp").forward(request, response);
+            HttpSession session = request.getSession();
+            session.setAttribute("message", c.getName());
+            response.sendRedirect("welcome.jsp");
         }
         else if (submitType.equals("register")) {
             c.setName(request.getParameter("name"));
             c.setName(request.getParameter(userName));
             c.setName(request.getParameter(password));
             cd.insertCustomer(c);
-            request.setAttribute("successMessage", "not found");
-            request.getRequestDispatcher("register.jsp").forward(request,response);
+            HttpSession session = request.getSession();
+            session.setAttribute ("successMessage", "not found");
+            response.sendRedirect("register.jsp");
         }
 
         else {
