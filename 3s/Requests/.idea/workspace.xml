@@ -12,18 +12,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/CreatePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="119" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ProfileHandler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
@@ -36,10 +24,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FriendsDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+            <state relative-caret-position="391">
+              <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,10 +36,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FriendsDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MessageDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="69" selection-end-column="1" />
+              <caret line="5" selection-start-line="5" selection-end-line="69" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/Message.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" selection-end-line="47" selection-end-column="1" />
+              <caret selection-end-line="47" selection-end-column="1" />
               <folding>
                 <element signature="e#442#443#0" expanded="true" />
                 <element signature="e#481#482#0" expanded="true" />
@@ -77,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MessageHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="255">
               <caret line="17" column="99" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="99" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -89,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Dispatcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+            <state relative-caret-position="442">
+              <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,7 +102,6 @@
         <entry file="file://$PROJECT_DIR$/src/UserDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret lean-forward="true" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,7 +113,7 @@
         <entry file="file://$PROJECT_DIR$/src/Subscrition.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -122,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FriendsHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            <state relative-caret-position="68">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -170,16 +169,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="INFO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INFO" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="INFO" type="b2602c69:ProjectViewProjectNode" />
-              <item name="INFO" type="462c0819:PsiDirectoryNode" />
+              <item name="Requests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Requests" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -187,14 +187,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569959380358" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Servlet" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -242,17 +241,18 @@
       <workItem from="1569434716174" duration="4440000" />
       <workItem from="1569513278833" duration="17854000" />
       <workItem from="1569873620321" duration="20819000" />
+      <workItem from="1572184227980" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46421000" />
+    <option name="totallyTimeSpent" value="46435000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -320,16 +320,7 @@
   <component name="editorHistoryManager">
     <entry file="file://D:/ITIS 1 course/Abramsky/Practic/StudentsAndGroups/MainClass.java" />
     <entry file="file://D:/ITIS 1 course/Abramsky/Practic/BaseData/Name.java" />
-    <entry file="file://$PROJECT_DIR$/../../ITIS 1 course/Abramsky/Practic/BaseData/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#2177#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ITIS 1 course/Abramsky/Practic/BaseData/MainClass.java" />
     <entry file="file://$PROJECT_DIR$/page.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -343,16 +334,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../ITIS 1 course/Abramsky/Practic/BaseDate/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="50" column="17" lean-forward="true" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#2205#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../ITIS 1 course/Abramsky/Practic/BaseDate/MainClass.java" />
     <entry file="file://$PROJECT_DIR$/friends.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -394,16 +376,6 @@
     <entry file="file://$PROJECT_DIR$/message.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -411,27 +383,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/CreatePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="1768">
+          <caret line="106" column="8" selection-start-line="106" selection-start-column="8" selection-end-line="119" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Subscrition.java">
+    <entry file="file://$PROJECT_DIR$/src/FriendsDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="187">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Message.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" selection-end-line="47" selection-end-column="1" />
+          <caret selection-end-line="47" selection-end-column="1" />
           <folding>
             <element signature="e#442#443#0" expanded="true" />
             <element signature="e#481#482#0" expanded="true" />
@@ -441,40 +416,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MessageDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="69" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/MessageHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="255">
           <caret line="17" column="99" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="99" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/CreatePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="106" column="8" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="119" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FriendsHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -483,18 +428,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Dispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="442">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FriendsDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        <state>
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Subscrition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FriendsHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -505,6 +466,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MessageDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="69" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

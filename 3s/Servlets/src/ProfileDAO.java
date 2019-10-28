@@ -5,9 +5,13 @@ import java.util.Scanner;
 
 public class ProfileDAO {
 
+
+
     static ArrayList<Profile> profiles = new ArrayList<>();
 
     public static Profile getUserById(String id) throws IOException {
+
+        
 
         profiles.add(new Profile("1","Sasha","Sterlitamak",Integer.parseInt("2000")));
         profiles.add(new Profile("2","Rodya","Kazan",Integer.parseInt("2000")));
