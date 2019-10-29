@@ -11,7 +11,8 @@
     <title>Title</title>
 </head>
 <body>
-<form action="register.jsp">
+<form action="LoginRegister" method="post">
+
 <table>
 <tr>
     <td> Name :</td>
@@ -30,7 +31,7 @@
     <td><input type="password" name="password2"></td>
 </tr>
 <tr>
-    <td><input type="submit" name="submit" value="Registration"></td>
+    <td><input type="submit" name="submit" value="registration"></td>
     <td></td>
 </tr>
 </table>>

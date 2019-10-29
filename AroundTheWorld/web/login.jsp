@@ -20,17 +20,20 @@
             <td></td>
         </tr>
 
-        <td>
+        <tr>
         <td> UserName :</td>
-        <td><input type="text" name="name"></td>
+        <td><input type="text" name="username"></td>
         </tr>
 
 
         <tr>
         <td> Password :</td>
         <td><input type="password" name="password"></td>
-        <td><input type="submit" name="submit" value="login"></td><td><a href="register.jsp">Login</a></td>
-            <a href="http://localhost:8080/AroundTheWorld/register.jsp">Register</a>
+        <td><input type="submit" name="submit" value="login"></td>
+        </tr>
+
+        <tr>
+            <td><a href="http://localhost:8080/register.jsp">Register</a></td>
         </tr>
 
     </table>

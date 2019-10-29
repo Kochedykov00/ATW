@@ -6,15 +6,13 @@ public class Customer {
     String username;
     String password;
 
-    public Customer(String name, String usernmae, String password) {
+    public Customer(String name, String username, String password) {
         this.name = name;
-        this.username = usernmae;
+        this.username = username;
         this.password = password;
     }
 
-    public Customer(){
-
-    }
+    public  Customer(){}
 
     public String getName() {
         return name;
@@ -28,8 +26,8 @@ public class Customer {
         return username;
     }
 
-    public void setUsernmae(String usernmae) {
-        this.username = usernmae;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getPassword() {
@@ -40,3 +38,4 @@ public class Customer {
         this.password = password;
     }
 }
+

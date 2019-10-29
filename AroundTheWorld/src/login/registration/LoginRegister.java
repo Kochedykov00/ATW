@@ -1,12 +1,18 @@
 package login.registration;
 
-import javax.servlet.http.HttpSession;
+
+
+import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
-
-
-@javax.servlet.annotation.WebServlet(name = "LoginRegister", urlPatterns = {"/*"})
+@WebServlet("/LoginRegister")
 public class LoginRegister extends javax.servlet.http.HttpServlet {
+
+    public  LoginRegister(){
+        super();
+    }
+
+
     protected void doPost(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
         CustomerDAO cd = new CustomerDAOimpl();
         String userName = request.getParameter("username");
@@ -14,27 +20,25 @@ public class LoginRegister extends javax.servlet.http.HttpServlet {
         String submitType = request.getParameter("submit");
         Customer c = cd.getCustomer(userName,password);
         if (submitType.equals("login") && c != null && c.getName() != null ){
-            HttpSession session = request.getSession();
-            session.setAttribute("message", c.getName());
-            response.sendRedirect("welcome.jsp");
+            request.setAttribute("message",c.getName());
+            request.getRequestDispatcher("welcome.jsp").forward(request,response);
         }
-        else if (submitType.equals("register")) {
+        else if (submitType.equals("registration")) {
+            c = new Customer();
+            c.setUsername(request.getParameter("username"));
+            c.setPassword(request.getParameter("password"));
             c.setName(request.getParameter("name"));
-            c.setName(request.getParameter(userName));
-            c.setName(request.getParameter(password));
             cd.insertCustomer(c);
-            HttpSession session = request.getSession();
-            session.setAttribute ("successMessage", "not found");
-            response.sendRedirect("register.jsp");
+            request.setAttribute("successMessage","register has been completed");
+            request.getRequestDispatcher("login.jsp").forward(request,response);
         }
 
         else {
             request.setAttribute("message", "Error, please click on registration");
-            request.getRequestDispatcher("login.jsp").forward(request, response);
+            request.getRequestDispatcher("login.jsp").forward(request,response);
         }
     }
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
-
     }
 }

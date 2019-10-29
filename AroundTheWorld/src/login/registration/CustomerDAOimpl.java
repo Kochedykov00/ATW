@@ -11,10 +11,12 @@ public class CustomerDAOimpl implements CustomerDAO {
         int status = 0;
         try {
             con = MyConnectionProvider.getCon();
-            ps = con.prepareStatement("insert into customer values (?,?,?)");
+            ps = con.prepareStatement("insert into users values (?,?,?)");
             ps.setString(1, c.getUsername());
-            ps.setString(2, c.getName());
-            ps.setString(3, c.getPassword());
+            ps.setString(2, c.getPassword());
+            ps.setString(3, c.getName());
+            status = ps.executeUpdate();
+            con.close();
         }
         catch(Exception e) {
             System.out.println(e);
@@ -27,13 +29,13 @@ public class CustomerDAOimpl implements CustomerDAO {
         Customer c = new Customer();
         try {
             con= MyConnectionProvider.getCon();
-            ps = con.prepareStatement("select into customer where userid=? and password=?");
+            ps = con.prepareStatement("select into users where username=? and password=?");
                 ps.setString(1, username);
                 ps.setString(2, password);
             ResultSet rs = ps.executeQuery();
 
             while (rs.next()) {
-                c.setUsernmae(rs.getString(1));
+                c.setUsername(rs.getString(1));
                 c.setPassword(rs.getString(2));
                 c.setName(rs.getString(3));
             }
