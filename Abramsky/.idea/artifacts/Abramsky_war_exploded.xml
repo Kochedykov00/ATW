@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Abramsky:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Abramsky_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ATW" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="freemarker-2.3.22" />
+          <element id="library" level="project" name="postgresql-9.3-1101.jdbc41" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ATW/web/Web" />
+    </root>
+  </artifact>
+</component>

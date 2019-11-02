@@ -12,6 +12,7 @@ public class MyConnectionProvider implements MyProvider {
         try {
             Class.forName("org.postgressql.Driver");
             con= DriverManager.getConnection(connUrl,username,password);
+
         }
         catch (Exception e) {
             System.out.println(e);

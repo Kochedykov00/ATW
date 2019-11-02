@@ -1,9 +1,11 @@
 package login.registration;
 
 
-
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
+
+import static login.registration.Freemarker.render;
+
 
 @WebServlet("/LoginRegister")
 public class LoginRegister extends javax.servlet.http.HttpServlet {
@@ -40,5 +42,6 @@ public class LoginRegister extends javax.servlet.http.HttpServlet {
     }
 
     protected void doGet(javax.servlet.http.HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws javax.servlet.ServletException, IOException {
+        render(request, response, "login.ftl", null);
     }
 }
