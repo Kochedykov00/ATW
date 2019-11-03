@@ -4,8 +4,17 @@
 <#macro content>
 
     <form method="post">
+
         <div>
-            Name: <input name="name" type="text">
+            Lastname: <input name="lastname" type="text">
+        </div>
+
+        <div>
+            FirstName: <input name="firstname" type="text">
+        </div>
+
+        <div>
+            Email: <input name="email" type="text">
         </div>
 
         <div>

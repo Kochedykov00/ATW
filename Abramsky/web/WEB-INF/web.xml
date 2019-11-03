@@ -39,12 +39,21 @@
 
 
     <servlet>
-        <servlet-name>registerPage</servlet-name>
-        <servlet-class>servlets.RegisterServlet</servlet-class>
-    </servlet>
+    <servlet-name>registerPage</servlet-name>
+    <servlet-class>servlets.RegisterServlet</servlet-class>
+</servlet>
     <servlet-mapping>
         <servlet-name>registerPage</servlet-name>
         <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>profilePage</servlet-name>
+        <servlet-class>servlets.ProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>profilePage</servlet-name>
+        <url-pattern>/profile</url-pattern>
     </servlet-mapping>
 
 

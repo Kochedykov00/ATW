@@ -1,8 +1,8 @@
 package servlets;
 
-import dao.CustomerDAO;
-import dao.CustomerDAOimpl;
-import models.Customer;
+import dao.UserDAO;
+import dao.UserDAOImpl;
+import models.User;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,16 +18,18 @@ public class RegisterServlet extends HttpServlet {
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        CustomerDAO customerDAO = new CustomerDAOimpl();
+        UserDAO customerDAO = new UserDAOImpl();
 
-        Customer cus ;
+        User u ;
 
 
-            cus = new Customer();
-            cus.setUsername(request.getParameter("username"));
-            cus.setPassword(request.getParameter("password"));
-            cus.setName(request.getParameter("name"));
-            int status = customerDAO.insertCustomer(cus);
+            u = new User();
+            u.setUsername(request.getParameter("username"));
+            u.setPassword(request.getParameter("password"));
+            u.setLastName(request.getParameter("lastname"));
+            u.setEmail(request.getParameter("email"));
+            u.setFirstName(request.getParameter("firstname"));
+            int status = customerDAO.insertUser(u);
             //request.setAttribute("successMessage","register has been completed");
             response.sendRedirect("/login");
         }

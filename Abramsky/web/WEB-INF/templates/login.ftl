@@ -21,6 +21,7 @@
 
             <tr>
                 <td><a href="http://localhost:8080/register">registration</a></td>
+                <td><input type="checkbox" name="option" value="remember" checked = "false">rememberMe</td>
             </tr>
 
         </table>
