@@ -37,6 +37,15 @@
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>BlogPage</servlet-name>
+        <servlet-class>servlets.MyBlogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BlogPage</servlet-name>
+        <url-pattern>/blog</url-pattern>
+    </servlet-mapping>
+
 
     <servlet>
     <servlet-name>registerPage</servlet-name>
@@ -54,6 +63,60 @@
     <servlet-mapping>
         <servlet-name>profilePage</servlet-name>
         <url-pattern>/profile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ArticlesPage</servlet-name>
+        <servlet-class>servlets.MainServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ArticlesPage</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateBlogPage</servlet-name>
+        <servlet-class>servlets.CreateBlogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateBlogPage</servlet-name>
+        <url-pattern>/create_blog</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CreateDiscussionPage</servlet-name>
+        <servlet-class>servlets.CreateDiscussionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CreateDiscussionPage</servlet-name>
+        <url-pattern>/create_discussion</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DiscussionPage</servlet-name>
+        <servlet-class>servlets.ListOfDiscussionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiscussionPage</servlet-name>
+        <url-pattern>/discussions</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MyProfilePage</servlet-name>
+        <servlet-class>servlets.MyProfileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyProfilePage</servlet-name>
+        <url-pattern>/myProfile</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ArticlePage</servlet-name>
+        <servlet-class>servlets.PageArticleServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ArticlePage</servlet-name>
+        <url-pattern>/article</url-pattern>
     </servlet-mapping>
 
 

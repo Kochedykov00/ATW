@@ -8,8 +8,8 @@
 
     <body>
 
-    <h1>Student book</h1>
-    <a href="/list">List</a> | <a href="/new">New</a> | <a href="/search">Search</a>
+    <h1>Around the world!</h1>
+    <a href="/myProfile">My Profile</a> | <a href="/discussions">Discussions</a> | <a href="/blog">My Blog</a>
     <hr/>
     <@content />
     <hr/>
