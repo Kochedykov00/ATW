@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styleForATW.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+    <script src="../js/myJs.js"></script>
+
+</head>
+<body style="background-color: #d4e3fc">
+<nav class="navbar navbar-expand-sm navbar-dark justify-content-end" style="background-color: #8eb0fa">
+    <a class="navbar-brand text-black">Around The World</a>
+    <div class="col-2 offset-8 ">
+        <div class="dropdown" hidden>
+            <button type="button" class="btn btn-primary dropdown-toggle top-line-btn" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Меню</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="">Мой профиль</a>
+                <a class="dropdown-item" href="">Мой блог</a>
+                <a class="dropdown-item" href="">Обсуждения</a>
+                <a class="dropdown-item" href="">Главная</a>
+                <a class="dropdown-item" href="">Выход</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<br /><br />
+<div class="mt-7">
+    <h1 class="mb-lg-5"><img src="../photo/key_icon.png">&nbsp;&nbsp;Вход</h1>
+</div>
+<br />
+<form name="login" action="" method="post">
+    <div class="container">
+        <div class="row" id="inputInformation">
+            <div class="col-2">
+                <label for="login">Логин</label>
+                <br /><br /><br />
+                <label for="password">Пароль </label>
+            </div>
+            <div class="col-6">
+                <input class="form-control" oninput="validateLogin()" type="text" name="login" id="login" size="50%" placeholder="Логин"/>
+                <small id="loginValid" class="form-text validation"></small>
+                <br /><br />
+                <input class="form-control" oninput="validateOfPasswordLogin()" type="password" name="password" id="password" size="50%" placeholder="Пароль"/>
+                <small id="passwordValid" class="form-text validation"></small>
+            </div>
+        </div>
+    </div>
+    <br /><br />
+    <div class="container">
+        <div class="row">
+            <div class="col-6" align="right">
+                <a class="btn btn-primary border-black mx-4 btn-lg px-15 mt-4"
+                   style="background-color: rgba(59,72,148,0.91)"
+                   href="registration.html" role="button">&nbsp;&nbsp;&nbsp;Зарегистрироваться&nbsp;&nbsp;&nbsp;</a>
+            </div>
+            <div class="col-5" align="left">
+                <button type="submit" id="submit" value="save" disabled="true" class="btn btn-primary border-black mx-4 btn-lg px-15 mt-4" style="background-color: rgba(58,49,148,0.91)">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Вход&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+</body>
+</html>

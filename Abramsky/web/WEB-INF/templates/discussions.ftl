@@ -1,0 +1,54 @@
+<#include "base.ftl" />
+
+<#macro content>
+    <html>
+    <body>
+
+    <br /><br />
+
+    <div id="nameOfBlog">
+        <h1 class="mb-lg-5">List of discussion</h1>
+    </div>
+
+
+
+    <div class="container-fluid page-container">
+        <div class="row">
+            <div class="col-9">
+
+                <div class="col-9 list" >
+
+                    <div class="listRow ">
+
+                        <div class="lastArtBody">
+                            <#list discussions as d>
+                            <div class="row" style="overflow: auto; max-width: 600px;">
+                                <div><a class="articleHref1" href="/profile?id=${d.id_author}">${d.author}</a></div>
+                                <div><a style="margin-left: 42%" class="articleHref1" href="/discussion?id=${d.id}" >${d.name}</a></div>
+                                <div><h6 style="margin-left: 322%; margin-top: 4%">${d.date}</h6></div>
+                            </div>
+                            </#list>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <a class="btn btn-primary border-black  btn-lg px-15 "
+           style="background-color: rgba(59,72,148,0.91); margin-left: 40%;"
+           href="addDiscussion.html" role="button" >&nbsp;&nbsp;&nbsp;Create discussion&nbsp;&nbsp;&nbsp;</a>
+    </div>
+
+    </div>
+
+    </body>
+    </html>
+
+</#macro>
+
+<@display_page />

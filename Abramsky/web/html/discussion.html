@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Discussion</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styleForATW.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+
+</head>
+<body style="background-color: #d4e3fc">
+<nav class="navbar navbar-expand-sm navbar-dark justify-content-end" style="background-color: #8eb0fa">
+    <a class="navbar-brand text-black">Around The World</a>
+    <div class="col-2 offset-8 ">
+        <div class="dropdown" >
+            <button type="button" class="btn btn-primary dropdown-toggle top-line-btn" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Меню</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="">Мой профиль</a>
+                <a class="dropdown-item" href="">Мой блог</a>
+                <a class="dropdown-item" href="">Обсуждения</a>
+                <a class="dropdown-item" href="">Главная</a>
+                <a class="dropdown-item" href="">Выход</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<br/>
+<div align="center"><h2>Название обсуждения</h2></div>
+<br /><br /><br/>
+
+<div class="container-fluid page-container">
+    <div class="row">
+        <div class="col-5">
+            <div class="row" style="margin-left: 4%;margin-top: 16%;font-size: large" >
+                <div class="col-5">
+                    <label for="author">Автор обсуждения : </label>
+                    <br /><br />
+                    <label for="date">Дата публикации :</label>
+                </div>
+                <div class="col-6">
+                    <a href="" id="author" style="font-size: large">Sharik_RRR</a>
+                    <br /><br/>
+                    <h4 id="date">12.12.1999</h4>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <br/>
+            <div class="textArt text-div">
+                Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text Discussion text
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row commentsCont">
+        <div class="col-10">
+            <div>
+                <h2>Сообщения :</h2>
+                <div>
+                    <div class="comment row">
+                        <div class="col-11" style="margin-left: 5%">
+                            <h6 class="text-div">NickName</h6>
+                            <div class="bordered text-div comment-text">
+                                <div>Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text</div>
+                            </div>
+                            <div >
+                                <h6 style="text-align: right">10.10.2019 10:30</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="comment row">
+                        <div class="col-11" style="margin-left: 5%">
+                            <h6 class="text-div">NickName</h6>
+                            <div class="bordered text-div comment-text">
+                                <div>Comment text Comment text Comment text Comment text Comment text CommentComment text Comment text Comment text Comment text Comment text Comment text Comment textComment text Comment text Comment text Comment text Comment text Comment text Comment textComment text Comment text Comment text Comment text Comment text Comment text Comment textComment text Comment text Comment text Comment text Comment text Comment text Comment textComment text Comment text Comment text Comment text Comment text Comment text Comment textComment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text Comment text</div>
+                            </div>
+                            <div >
+                                <h6 style="text-align: right">10.10.2019 10:30</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h3 style="margin-left: 10%">Написать сообщение :</h3>
+    <form method="post" class="addCommentsCont">
+        <div class="row">
+            <div class="col-8">
+                <h6 class="text-div">NickName</h6>
+                <div class="text-div">
+                    <div class="form-group">
+                        <textarea class="form-control" id="input" rows="2"></textarea>
+                    </div>
+                </div>
+                <div style="text-align: right">
+                    <button type="submit" value="save" class="btn btn-outline-primary">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>

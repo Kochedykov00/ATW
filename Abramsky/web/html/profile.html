@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styleForATW.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+
+</head>
+<body style="background-color: #d4e3fc">
+<nav class="navbar navbar-expand-sm navbar-dark justify-content-end" style="background-color: #8eb0fa">
+    <a class="navbar-brand text-black">Around The World</a>
+    <div class="col-2 offset-8 ">
+        <div class="dropdown" >
+            <button type="button" class="btn btn-primary dropdown-toggle top-line-btn" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Меню</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="">Мой блог</a>
+                <a class="dropdown-item" href="">Обсуждения</a>
+                <a class="dropdown-item" href="">Главная</a>
+                <a class="dropdown-item" href="">Выход</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<br /><br />
+
+<div class="container-fluid profile-page-container">
+        <div class="col-11">
+            <div class="row profile">
+                <div class="col-6">
+                    <img src="../photo/user.png" class="photo">
+                    <form action="editProfile.html">
+                        <button id="editButton" type="submit" class="btn btn-outline-primary">Редактировать профиль</button>
+                    </form>
+                </div>
+                <div class="col-5 profileInfo">
+                    <div class="row" id="infoAbout">
+                        <div class="col-5">
+                            <label for="login">Логин : </label>
+                            <br /><br />
+                            <label for="surname">Фамилия :</label>
+                            <br /><br />
+                            <label for="name">Имя :</label>
+                            <br /><br />
+                            <label for="aboutMe">Обо мне :</label>
+                        </div>
+                        <div class="col-6">
+                            <h4 id="login">Sharik_RRR</h4>
+                            <br />
+                            <h4 id="surname">Sharifullin</h4>
+                            <br />
+                            <h4 id="name">Ilnaz</h4>
+                            <br />
+                            <h4 id="aboutMe" >Top proger</h4>
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row" style="font-size: 19px;font-weight: 700;">
+                        <div class="col-5">
+                            <label for="blog">Блог :</label>
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <h4 id="blog">ProgerBlog</h4>
+                                <form style="margin-left: 20%" action="blog.html" >
+                                    <button type="submit" class="btn btn-outline-primary">Перейти</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+</div>
+
+
+</body>
+</html>

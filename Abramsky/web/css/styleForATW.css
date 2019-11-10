@@ -1,0 +1,226 @@
+* {
+	margin-bottom: 5px;
+}
+
+.articleHref{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.articleHref1{
+	font-size: 21px;
+	font-weight: bold;
+}
+
+#bestRow{
+	margin-top: -2%;
+}
+
+
+.small-photo{
+	margin-top: 4%;
+	margin-left: -4%;
+	width:50%;
+	height:90%;
+	border-radius: 5px;
+}
+
+.bestArtBody{
+	margin-top: 2%;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+.bestArtRow{
+	margin-left:0%;
+	height: 100%;
+}
+
+.bestArt{
+	border-radius: 5px;
+	background-color: #bbdefb;
+	height:150px;
+	border:1px solid #000;
+	margin-left: 2.5%;
+}
+
+#bests{
+	margin-top:-2%;
+	margin-left: 3%;
+}
+
+#lasts{
+	margin-top: 2%;
+	margin-left: 33%;
+}
+
+.small-photo1{
+	margin-top: 1%;
+	margin-left: -4%;
+	width:40%;
+	height:90%;
+	border-radius: 7px;
+}
+
+.lastArtBody{
+	margin-top: 1%;
+	margin-left: 12%;
+	margin-bottom: 2%;
+}
+
+.lastArtRow{
+	margin-left:5%;
+	height: 100%;
+}
+
+.lastArt{
+	border-radius: 5px;
+	background-color: #bbdefb;
+	height:150px;
+	border:1px solid #000;
+	margin-left: 27%;
+	margin-top: 2%;
+}
+
+.list{
+	border-radius: 5px;
+	background-color: #bbdefb;
+	height:50px;
+	border:1px solid #000;
+	margin-left: 27%;
+	margin-top: 2%;
+}
+
+.listRow{
+	margin-left:5%;
+	height: 100%;
+}
+
+.mt-7 {
+    margin-top: 4%;
+	margin-left: 40%;
+}
+
+.dropdown-menu {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.page-container {
+	margin-top: -3%;
+}
+
+.px-10 {
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+.px-15 {
+	font-size: 20px;
+}
+
+.border-black {
+    border-color: #1b1e21;
+}
+
+.font-20px {
+    font-size: 20px;
+}
+
+#inputInformation{
+	margin-left: 18%;
+	font-size: 19px;
+	font-weight: 700;
+}
+
+#infoAbout{
+	font-size: 19px;
+	font-weight: 700;
+}
+
+.custom-control-label {
+	font-size: 22px;
+	font-weight:bold;
+	margin-top: 4%;
+}
+
+.profile{
+	margin-left: 5%;
+}
+
+.photo {
+	width: 70%;
+	height: 90%;
+	margin-top: 1%;
+}
+
+.profileInfo {
+	margin-top: 5%;
+	text-align: left;
+}
+
+.profile-page-container {
+	margin-top:2%;
+}
+
+#editButton {
+	margin-top: 4%;
+	margin-left: 7%;
+	width: 50%;
+
+}
+
+#aboutMe{
+	overflow: auto;
+	max-width: 400px;
+}
+
+.textArt {
+	background-color: #9deff2;
+	max-height: 200px;
+	overflow : auto;
+	padding: 6px;
+	border-radius: 5px;
+}
+
+.photoArticle{
+	margin-top: 5%;
+	margin-left: 7%;
+	width: 70%;
+	height: 90%;
+}
+
+#aboutArticle{
+	margin-left: 6%;
+	font-size: large;
+	margin-top: 2%;
+}
+
+.commentsCont{
+	margin-top: 10%;
+	margin-left: 5%;
+}
+
+.comment{
+	margin-left: 7%;
+	margin-top: 4%;
+	background-color: #d5f5ff;
+	border-radius: 7px;
+	padding: 1%;
+}
+
+.addCommentsCont{
+	margin-top: 3%;
+	margin-left: 22%;
+}
+
+#nameOfBlog{
+	font-family: Calibri;
+	text-align: center;
+}
+
+.validation{
+	color: #c8000b;
+	font-family: Arial, sans-serif;
+	font-size: 10px;
+}

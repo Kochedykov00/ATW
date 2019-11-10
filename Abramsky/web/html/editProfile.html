@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EditProfile</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/styleForATW.css">
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+
+</head>
+<body style="background-color: #d4e3fc">
+<nav class="navbar navbar-expand-sm navbar-dark justify-content-end" style="background-color: #8eb0fa">
+    <a class="navbar-brand text-black">Around The World</a>
+    <div class="col-2 offset-8 ">
+        <div class="dropdown" >
+            <button type="button" class="btn btn-primary dropdown-toggle top-line-btn" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Меню</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="">Мой блог</a>
+                <a class="dropdown-item" href="">Обсуждения</a>
+                <a class="dropdown-item" href="">Мой профиль</a>
+                <a class="dropdown-item" href="">Главная</a>
+                <a class="dropdown-item" href="">Выход</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<br /><br />
+
+<div class="container-fluid profile-page-container">
+    <form method="post">
+    <div class="col-11">
+        <div class="row profile">
+            <div class="col-6">
+                <div class="form-group">
+                    <label>Изменить фото:</label>
+                    <input type="file" class="photo" name="photo">
+                </div>
+                <img src="../photo/user.png" class="photo">
+            </div>
+            <div class="col-5 profileInfo">
+                <div class="row" id="infoAbout">
+                    <div class="col-5">
+                        <label for="login">Логин : </label>
+                        <br /><br />
+                        <label for="surname">Фамилия :</label>
+                        <br /><br />
+                        <label for="name">Имя :</label>
+                        <br /><br />
+                        <label for="aboutMe">Обо мне :</label>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" name="login" class="form-control" placeholder="login" id="login">
+                        <br />
+                        <input type="text" name="surname" class="form-control" placeholder="surname" id="surname">
+                        <br />
+                        <input type="text" name="name" class="form-control" placeholder="name" id="name">
+                        <br />
+                        <input type="text" name="aboutMe" class="form-control" placeholder="aboutMe" id="aboutMe">
+                    </div>
+                </div>
+                <br />
+
+            </div>
+        </div>
+    </div>
+        <div class="container" >
+            <div class="col-5" style="margin-left: 37%">
+                <a class="btn btn-primary border-black mx-4 btn-lg px-15 mt-4"
+                   style="background-color: rgba(58,49,148,0.91)"
+                   href="" role="button" value="save">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Изменить&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+
+</body>
+</html>
