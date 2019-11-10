@@ -28,40 +28,67 @@ public class NewServlet extends HttpServlet {
         Integer id = (Integer) session.getAttribute("current_user");
         User u ;
         UserDAO ud = new UserDAOImpl();
+        User update = new User();
 
         u = ((UserDAOImpl) ud).getUserById(id);
-        System.out.println(u.getUsername()+ u.getFirstName()+ u.getAboutme());
-        String username = request.getParameter("username");
-        u.setUsername(username);
-        System.out.println(u.getUsername());
+        System.out.println("тут ид" + id);
+        String username = request.getParameter("login");
+        if (username != null) {
+            update.setUsername(username);
+        }
+        else {
+            update.setUsername(u.getUsername());
+        }
 
-        String firstname = request.getParameter("firstname");
-        u.setFirstName(firstname);
+        String firstname = request.getParameter("name");
+        if (firstname != null) {
+            update.setFirstName(firstname);
+        }
+        else {
+            update.setFirstName(u.getFirstName());
+        }
 
-        String lastname = request.getParameter("lastname");
-        u.setLastName(lastname);
+        String lastname = request.getParameter("surname");
+        if (lastname != null) {
+            update.setLastName(lastname);
+        }
+        else {
+            update.setLastName(u.getLastName());
+        }
 
-        String aboutme = request.getParameter("aboutme");
-        u.setAboutme(aboutme);
+        String aboutme = request.getParameter("aboutMe");
+        if (aboutme != null) {
+            update.setAboutme(aboutme);
+        }
+        else {
+            update.setAboutme(u.getAboutme());
+        }
 
         Part p = request.getPart("photo");
+        if (p != null) {
 
-        String localdir = "uploads";
-        String pathDir = getServletContext().getRealPath("") + File.separator + localdir;
-        File dir = new File(pathDir);
-        if (!dir.exists()) {
-            dir.mkdir();
+            String localdir = "uploads";
+            String pathDir = getServletContext().getRealPath("") + File.separator + localdir;
+            File dir = new File(pathDir);
+            if (!dir.exists()) {
+                dir.mkdir();
+            }
+            String[] filename_data = p.getSubmittedFileName().split("\\.");
+            String filename = Math.random() + "." + filename_data[filename_data.length - 1];
+            String fullpath = pathDir + File.separator + filename;
+            p.write(fullpath);
+            update.setPhotoPath("/" + localdir + "/" + filename);
         }
-        String[] filename_data = p.getSubmittedFileName().split("\\.");
-        String filename = Math.random() + "." + filename_data[filename_data.length - 1];
-        String fullpath = pathDir + File.separator + filename;
-        p.write(fullpath);
-        u.setPhotoPath("/" + localdir + "/" + filename);
-        User user = new User (u.getId(),u.getFirstName(),u.getLastName(),u.getEmail(),u.getUsername(),u.getPassword(),u.getPhotoPath(),u.getAboutme());
+        else {
+            update.setPhotoPath(u.getPhotoPath());
+        }
+        update.setId(u.getId());
+        update.setPassword(u.getPassword());
 
 
-        ((UserDAOImpl) ud).updateUser(id,user);
-        response.sendRedirect("/profile");
+
+        ((UserDAOImpl) ud).updateUser(id,update);
+        response.sendRedirect("/myProfile");
     }
 
 

@@ -7,14 +7,17 @@
         <servlet-name>list</servlet-name>
         <servlet-class>servlets.StudentListServlet</servlet-class>
     </servlet>
-    <servlet>
-        <servlet-name>new</servlet-name>
-        <servlet-class>servlets.NewServlet</servlet-class>
-    </servlet>
+
     <servlet-mapping>
         <servlet-name>list</servlet-name>
         <url-pattern>/list</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>new</servlet-name>
+        <servlet-class>servlets.NewServlet</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>new</servlet-name>
         <url-pattern>/new</url-pattern>
@@ -124,6 +127,8 @@
         <servlet-name>default</servlet-name>
         <url-pattern>*.js</url-pattern>
         <url-pattern>*.jpg</url-pattern>
+        <url-pattern>*.css</url-pattern>
+        <url-pattern>*.png</url-pattern>
     </servlet-mapping>
 
 
