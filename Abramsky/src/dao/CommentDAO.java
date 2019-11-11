@@ -6,5 +6,6 @@ import java.util.List;
 
 public interface CommentDAO {
 
-    public List<Comment> listOfComment (int id_title);
+    public List<Comment> listOfCommentByDiscussion (int id_discussion);
+    public List<Comment> listOfCommentByArticle (int id_article);
 }

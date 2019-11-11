@@ -2,6 +2,7 @@ package dao;
 
 import helpers.Database;
 import models.Article;
+import models.Articles;
 
 
 import java.sql.Connection;
@@ -41,7 +42,7 @@ public class ArticleDAOImpl implements ArticleDAO {
             List<Article> articles = new ArrayList<>();
             Connection conn = helpers.Database.getConnection();
             PreparedStatement ps = conn.prepareStatement(
-                    "SELECT * FROM articles ORDER BY rating DESC LIMIT 3;"
+                    "SELECT * FROM articles ORDER BY rating DESC LIMIT 5;"
             );
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
@@ -62,7 +63,7 @@ public class ArticleDAOImpl implements ArticleDAO {
             List<Article> articles = new ArrayList<>();
             Connection conn = helpers.Database.getConnection();
             PreparedStatement ps = conn.prepareStatement(
-                    "SELECT * FROM articles order  by id_title desc LIMIT 3;"
+                    "SELECT * FROM articles order  by id_title desc LIMIT 5;"
             );
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
@@ -80,17 +81,18 @@ public class ArticleDAOImpl implements ArticleDAO {
 
 
 
-    public int insertArticle(Article a) {
+    public int insertArticles(Articles a) {
     int status = 0;
         try {
             Connection conn ;
         conn = Database.getConnection();
+        String date = a.getDate().toString();
         PreparedStatement ps = conn.prepareStatement("insert into articles (user_id,author,title,text,date,rating,photopath) values (?,?,?,?,?,?,?)");
         ps.setInt(1, a.getUser_id());
         ps.setString(2, a.getAuthor());
         ps.setString(3, a.getTitle());
         ps.setString(4, a.getText());
-        ps.setString(5, a.getDate());
+        ps.setString(5, date);
         ps.setInt(6, a.getRating());
         ps.setString(7,a.getPhotoPath());
 

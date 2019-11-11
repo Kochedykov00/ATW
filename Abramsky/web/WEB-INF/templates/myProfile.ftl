@@ -5,8 +5,11 @@
         <div class="col-11">
             <div class="row profile">
                 <div class="col-6">
-                    <img src="../photo/user.png" class="photo">
-                    <form action="/new?id=${profile.getId()}">
+                    <#if profile.photoPath??>
+                        <img src="${profile.photoPath!}" width="400"/>
+                    </#if>
+
+                    <form action="/new">
                         <button  id="editButton" type="submit" class="btn btn-outline-primary">EditProfile</button>
                     </form>
                 </div>
@@ -40,14 +43,16 @@
                         <div class="col-5">
                             <label for="blog">Blog :</label>
                         </div>
+                        <#if blog.getId_blog()??>
                         <div class="col-6">
                             <div class="row">
-                                <h4 id="blog">ProgerBlog</h4>
-                                <form style="margin-left: 20%" action="blog.html" >
+                                <h4 id="blog">${blog.getName()}</h4>
+                                <form style="margin-left: 20%" action="/myBlog" >
                                     <button type="submit" class="btn btn-outline-primary">go over</button>
                                 </form>
                             </div>
                         </div>
+                            </#if>
                     </div>
 
                 </div>

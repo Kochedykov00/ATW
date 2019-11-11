@@ -4,6 +4,7 @@ import helpers.Database;
 import models.Article;
 import models.Blog;
 
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -35,13 +36,13 @@ public class BlogDAOImpl implements BlogDAO {
 
     public List<Article> getListOfArticleByIdOfAuthor(int id_user) {
         try {
+            List<Article> articles = new ArrayList<>();
             Connection conn = helpers.Database.getConnection();
             PreparedStatement ps = conn.prepareStatement(
                     "select * from articles where user_id =?"
             );
             ps.setInt(1, id_user);
             ResultSet rs = ps.executeQuery();
-            List<Article> articles = new ArrayList<>();
             while (rs.next()) {
                 articles.add(new Article(
                         rs.getInt(1), rs.getInt(8), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getInt(6), rs.getString(7)
@@ -49,9 +50,12 @@ public class BlogDAOImpl implements BlogDAO {
 
             }
             return articles;
-        } catch (SQLException e) {
+        } catch (NullPointerException e) {
             e.printStackTrace();
 
+        }
+        catch (SQLException s) {
+            s.printStackTrace();
         }
         return null;
     }

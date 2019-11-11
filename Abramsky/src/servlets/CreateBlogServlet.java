@@ -24,12 +24,15 @@ public class CreateBlogServlet extends HttpServlet {
         HttpSession session = request.getSession();
         Integer id_user = (Integer) session.getAttribute("current_user");
         System.out.println("айди юзер" + id_user);
-        if (id_user != null) {
+        BlogDAO bd = new BlogDAOImpl();
+        if (id_user != null && bd.getBlogById(id_user.intValue()) == null) {
             blog.setId_author(id_user);
-            BlogDAO bd = new BlogDAOImpl();
 
             bd.createBlog(blog);
-            response.sendRedirect("/blog");
+            response.sendRedirect("/myBlog");
+        }
+        else {
+            response.sendRedirect("/myBlog");
         }
     }
 

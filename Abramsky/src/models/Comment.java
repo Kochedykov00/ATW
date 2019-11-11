@@ -4,19 +4,19 @@ public class Comment {
 
     int id_author;
     String name_author;
-    int id_title;
+    int id_discussion;
+    int id_article;
     String text;
-    String photo_author;
 
     public Comment() {
     }
 
-    public Comment(int id_author, String name_author, int id_title, String text, String photo_author) {
+    public Comment(int id_author, String name_author, int id_discussion, int id_article, String text) {
         this.id_author = id_author;
         this.name_author = name_author;
-        this.id_title = id_title;
+        this.id_discussion = id_discussion;
+        this.id_article = id_article;
         this.text = text;
-        this.photo_author = photo_author;
     }
 
     public int getId_author() {
@@ -35,12 +35,20 @@ public class Comment {
         this.name_author = name_author;
     }
 
-    public int getId_title() {
-        return id_title;
+    public int getId_discussion() {
+        return id_discussion;
     }
 
-    public void setId_title(int id_title) {
-        this.id_title = id_title;
+    public void setId_discussion(int id_discussion) {
+        this.id_discussion = id_discussion;
+    }
+
+    public int getId_article() {
+        return id_article;
+    }
+
+    public void setId_article(int id_article) {
+        this.id_article = id_article;
     }
 
     public String getText() {
@@ -49,13 +57,5 @@ public class Comment {
 
     public void setText(String text) {
         this.text = text;
-    }
-
-    public String getPhoto_author() {
-        return photo_author;
-    }
-
-    public void setPhoto_author(String photo_author) {
-        this.photo_author = photo_author;
     }
 }

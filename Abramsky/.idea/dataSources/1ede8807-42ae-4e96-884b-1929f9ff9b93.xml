@@ -9,7 +9,7 @@
       <Comment>default administrative connection database</Comment>
       <StateNumber>567</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>911</IntrospectionStateNumber>
+      <IntrospectionStateNumber>998</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
       <Relations>sequence|table|24619|24621|1
@@ -107,7 +107,7 @@ sequence|table|24711|24713|1
       <Comment>standard public schema</Comment>
       <StateNumber>360</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>912</IntrospectionStateNumber>
+      <IntrospectionStateNumber>999</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -226,9 +226,9 @@ sequence|table|24711|24713|1
       <StateNumber>859</StateNumber>
     </table>
     <table id="34" parent="18" name="comments">
-      <ObjectId>24676</ObjectId>
+      <ObjectId>24722</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>766</StateNumber>
+      <StateNumber>995</StateNumber>
     </table>
     <table id="35" parent="18" name="discussions">
       <ObjectId>24713</ObjectId>
@@ -364,34 +364,33 @@ sequence|table|24711|24713|1
       <Position>1</Position>
       <DataType>integer|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>766</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>23</TypeId>
     </column>
     <column id="56" parent="34" name="name_author">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>766</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="57" parent="34" name="id_title">
+    <column id="57" parent="34" name="id_discussion">
       <Position>3</Position>
       <DataType>integer|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>766</StateNumber>
+      <StateNumber>992</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="58" parent="34" name="text">
+    <column id="58" parent="34" name="id_article">
       <Position>4</Position>
-      <DataType>varchar|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>766</StateNumber>
-      <TypeId>1043</TypeId>
+      <DataType>integer|0s</DataType>
+      <StateNumber>992</StateNumber>
+      <TypeId>23</TypeId>
     </column>
-    <column id="59" parent="34" name="photo_author">
+    <column id="59" parent="34" name="text ">
       <Position>5</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>766</StateNumber>
+      <NotNull>1</NotNull>
+      <StateNumber>995</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="60" parent="35" name="id">

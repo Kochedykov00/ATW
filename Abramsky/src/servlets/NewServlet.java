@@ -9,6 +9,8 @@ import models.User;
 import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.http.*;
 import java.io.*;
+import java.util.HashMap;
+import java.util.Map;
 import javax.servlet.ServletException;
 
 import static helpers.FreemarkerHelper.render;
@@ -30,7 +32,7 @@ public class NewServlet extends HttpServlet {
         UserDAO ud = new UserDAOImpl();
         User update = new User();
 
-        u = ((UserDAOImpl) ud).getUserById(id);
+        u = ((UserDAOImpl) ud).getUserById(id.intValue());
         System.out.println("тут ид" + id);
         String username = request.getParameter("login");
         if (username != null) {
@@ -93,6 +95,13 @@ public class NewServlet extends HttpServlet {
 
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        render(request, response, "new.ftl", null);
+        HttpSession session = request.getSession();
+        Integer id = (Integer) session.getAttribute("current_user");
+        User user ;
+        UserDAO ud = new UserDAOImpl();
+        user = ((UserDAOImpl) ud).getUserById(id.intValue());
+        Map<String, Object> root = new HashMap<>();
+        root.put ("user",user);
+        render(request, response, "new.ftl", root);
     }
 }

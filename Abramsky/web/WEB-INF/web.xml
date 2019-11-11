@@ -46,7 +46,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>BlogPage</servlet-name>
-        <url-pattern>/blog</url-pattern>
+        <url-pattern>/myBlog</url-pattern>
     </servlet-mapping>
 
 
@@ -121,6 +121,42 @@
         <servlet-name>ArticlePage</servlet-name>
         <url-pattern>/article</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DiscussionOnePage</servlet-name>
+        <servlet-class>servlets.PageDiscussionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DiscussionOnePage</servlet-name>
+        <url-pattern>/discussion</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>ArticleCreatePage</servlet-name>
+    <servlet-class>servlets.CreateArticleServlet</servlet-class>
+</servlet>
+    <servlet-mapping>
+        <servlet-name>ArticleCreatePage</servlet-name>
+        <url-pattern>/create_article</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>AnotherBlogPage</servlet-name>
+        <servlet-class>servlets.AnotherBlogServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AnotherBlogPage</servlet-name>
+        <url-pattern>/blog</url-pattern>
+    </servlet-mapping>
+
+
+
+
+
+
+
+
 
 
     <servlet-mapping>

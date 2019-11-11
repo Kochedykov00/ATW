@@ -48,10 +48,10 @@ function validationOfPasswordLogin(password, validPassword) {
 }
 
 function validateRegistration(){
-    var login = $('#login');
     var password = $('#password');
     var name = $('#name');
     var surname = $('#surname');
+	var login = $('#login');
     var password2 = $('#password2');
     var email = $('#email');
     var submit = $('#submit');
@@ -61,14 +61,14 @@ function validateRegistration(){
     var validPassword2 = $('#password2Valid');
     var validEmail = $('#emailValid');
     var validSurname = $('#surnameValid');
-    if (validationOfName(name, validName) && validationOfName(surname, validSurname) && validationOfEmail(email, validEmail) && validationOfName(login, validLogin) && validationOfPassword(password, validPassword) && validationOfPassword2(password, password2, validPassword2)) {
+    if (validationOfName(surname, validSurname) && validationOfName(name, validName) && validationOfEmail(email, validEmail) && validationOfLogin(login, validLogin) && validationOfPassword(password, validPassword) && validationOfPassword2(password, password2, validPassword2)) {
         submit.attr('disabled', false);
     } else {
         submit.attr('disabled', true);
     }
 };
 
-function validationOfName(login, validLogin) {
+function validationOfLogin(login, validLogin) {
     if (login.val().length > 0) {
         validLogin.text("");
         return true;
@@ -76,6 +76,21 @@ function validationOfName(login, validLogin) {
         validLogin.text("This field can't be null");
         return false;
     }
+}
+
+function validationOfName(name, nameValid) {
+    var pattern = /([A-Z][a-z]*)|([А-Я][а-я]*)$/;
+    if (name.val().length == 0){
+        nameValid.text("Name can't be null");
+        return false;
+    } else if (pattern.test(name.val())) {
+        nameValid.text("");
+        return true;
+    } else {
+        nameValid.text("The name should begin with a capital letter, only letters are allowed");
+        return false;
+    }
+
 }
 
 function validationOfEmail(email, validEmail) {
@@ -113,4 +128,3 @@ function validationOfPassword2(password, password2, validPassword2) {
     }
 
 }
-

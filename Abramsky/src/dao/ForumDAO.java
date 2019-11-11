@@ -9,4 +9,5 @@ public interface ForumDAO {
 
     public int insertDiscussion(Forum forum);
     public List<Forums> getAll ();
+    public Forums getForumById(int id);
 }

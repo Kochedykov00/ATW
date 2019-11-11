@@ -4,6 +4,7 @@ import static helpers.FreemarkerHelper.render;
 import dao.BlogDAO;
 import dao.BlogDAOImpl;
 import models.Article;
+import models.Articles;
 import models.Blog;
 
 import javax.servlet.ServletException;
@@ -28,13 +29,10 @@ public class MyBlogServlet extends HttpServlet {
         Integer user = (Integer) session.getAttribute("current_user");
         BlogDAO bd = new BlogDAOImpl();
         Blog blog = bd.getBlogById(user.intValue());
-        if (blog == null) {
-            response.sendRedirect("/create_blog");
-        }
         List<Article> articles = bd.getListOfArticleByIdOfAuthor(user.intValue());
         Map<String, Object> root = new HashMap<>();
-        root.put ("blog_content",blog);
-        root.put("articles",articles);
+        root.put ("blog",blog);
+        root.put("article",articles);
         render(request, response, "blog.ftl", root );
     }
 }

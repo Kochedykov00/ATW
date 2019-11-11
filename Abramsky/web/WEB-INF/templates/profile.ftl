@@ -5,12 +5,16 @@
     <div class="col-11">
         <div class="row profile">
             <div class="col-6">
-                <img src="../photo/user.png" class="photo">
+
+                <#if profile.getPhotoPath()??>
+                    <img src="${profile.getPhotoPath()!}" width="400"/>
+                </#if>
+
             </div>
             <div class="col-5 profileInfo">
                 <div class="row" id="infoAbout">
                     <div class="col-5">
-                        <label for="login">Login: </label>
+                        <label for="login">Username: </label>
                         <br /><br />
                         <label for="surname">Lastname :</label>
                         <br /><br />
@@ -36,12 +40,12 @@
                     <div class="col-5">
                         <label for="blog">Blog :</label>
                     </div>
-                    <#if bloger ??>
+                    <#if blog ??>
                     <div class="col-6">
                         <div class="row">
-                            <h4 id="blog">${bloger.getName()}</h4>
-                            <form style="margin-left: 20%" action="blog.html" >
-                                <button type="submit" class="btn btn-outline-primary">Go over</button>
+                            <h4 id="blog">${blog.getName()}</h4>
+
+                                <button type="submit" class="btn btn-outline-primary"><a class="articleHref" href="/blog?id=${blog.getId_blog()}">go over</a></button>
                             </form>
                         </div>
                     </div>

@@ -1,12 +1,14 @@
 package dao;
 
 import helpers.Database;
+import models.Blog;
 import models.Forum;
 import models.Forums;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
@@ -51,16 +53,41 @@ public class ForumDAOImpl implements ForumDAO{
             while (rs.next()) {
                 String s = rs.getString(6);
 
-                Forums forum = new Forums(rs.getInt(1),rs.getInt(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getString(6));
+                Forums forum = new Forums(rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6));
                 forums.add(forum);
 
                 con.close();
             }
+            return forums;
+        } catch (Exception e) {
+            System.out.println(e);
         }
-        catch(Exception e) {
-        System.out.println(e);
+        return null;
     }
 
-        return forums;
+
+
+        public Forums getForumById(int id) {
+            try {
+                Connection conn = helpers.Database.getConnection();
+                PreparedStatement ps = conn.prepareStatement(
+                        "select * from discussions where id= ?"
+                );
+                ps.setInt(1, id);
+                ResultSet rs = ps.executeQuery();
+                Forums forums;
+                while (rs.next()) {
+                    forums =  new Forums(
+                            rs.getInt(1),rs.getInt(2),rs.getString(3),rs.getString(4),rs.getString(5),rs.getString(6)
+                    );
+                    return forums;
+                }
+            } catch (SQLException e) {
+                e.printStackTrace();
+
+            }
+            return null;
+        }
+
     }
-}
+
