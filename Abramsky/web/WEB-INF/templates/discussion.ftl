@@ -2,6 +2,10 @@
 
 <#macro content>
 
+    <head>
+        <title>Discussion</title>
+    </head>
+
 <br/>
 <div align="center"><h2>${forum.getName()}</h2></div>
 <br /><br /><br/>
@@ -33,29 +37,29 @@
         </div>
     </div>
 
-    <#list comments as c>
+
     <div class="row commentsCont">
         <div class="col-10">
             <div>
                 <h2>Messages :</h2>
+                <#list comments as c>
                 <div>
                     <div class="comment row">
                         <div class="col-11" style="margin-left: 5%">
-                            <h6 class="text-div">${c.name_author}</h6>
+                            <a href="/profile?id=${c.id_author}">${c.name_author}</a>
                             <div class="bordered text-div comment-text">
                                 <div>${c.text}</div>
                             </div>
-                            <div >
-                                <h6 style="text-align: right">10.10.2019 10:30</h6>
-                            </div>
+
                         </div>
                     </div>
 
                 </div>
+                </#list>
             </div>
         </div>
     </div>
-        </#list>
+
 
     <h3 style="margin-left: 10%">Write message :</h3>
     <form method="post" class="addCommentsCont">
@@ -64,11 +68,11 @@
                 <h6 class="text-div">NickName</h6>
                 <div class="text-div">
                     <div class="form-group">
-                        <textarea class="form-control" id="input" rows="2"></textarea>
+                        <textarea class="form-control" name ="input" id="input" rows="2"></textarea>
                     </div>
                 </div>
                 <div style="text-align: right">
-                    <button type="submit" value="save" class="btn btn-outline-primary">Send</button>
+                    <input type="submit" name="submit" value="save" class="btn btn-outline-primary"/>
                 </div>
             </div>
         </div>

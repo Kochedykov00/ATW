@@ -6,12 +6,11 @@ import models.Blog;
 import static helpers.FreemarkerHelper.render;
 
 import javax.servlet.ServletException;
-import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.File;
 import java.io.IOException;
-@MultipartConfig
+
 @WebServlet(name = "CreateBlogServlet")
 public class CreateBlogServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -25,16 +24,13 @@ public class CreateBlogServlet extends HttpServlet {
         Integer id_user = (Integer) session.getAttribute("current_user");
         System.out.println("айди юзер" + id_user);
         BlogDAO bd = new BlogDAOImpl();
-        if (id_user != null && bd.getBlogById(id_user.intValue()) == null) {
+
             blog.setId_author(id_user);
 
             bd.createBlog(blog);
             response.sendRedirect("/myBlog");
-        }
-        else {
-            response.sendRedirect("/myBlog");
-        }
     }
+
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         render(request,response,"create_blog.ftl",null);

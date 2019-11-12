@@ -14,4 +14,5 @@ public interface ArticleDAO {
     public Article getArticle(int id);
     public List<Article> selectTopRating ();
     public List<Article> selectTopDate ();
+    public int updateArticle(Article a, Integer id);
 }

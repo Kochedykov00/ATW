@@ -14,15 +14,35 @@ import java.util.List;
 
 public class BlogDAOImpl implements BlogDAO {
 
-    public Blog getBlogById(int id_user) {
+    public Blog getBlogById(int id_blog) {
+        try {
+            Connection conn = helpers.Database.getConnection();
+            PreparedStatement ps = conn.prepareStatement(
+                    "select * from blogs where id_blog= ?"
+            );
+            ps.setInt(1, id_blog);
+            ResultSet rs = ps.executeQuery();
+            while (rs.next()) {
+                return new Blog(
+                        rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getString(4)
+                );
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+
+        }
+        return null;
+    }
+
+    public Blog getBlogByIdAuthor(int id_author) {
         try {
             Connection conn = helpers.Database.getConnection();
             PreparedStatement ps = conn.prepareStatement(
                     "select * from blogs where id_author= ?"
             );
-            ps.setInt(1, id_user);
+            ps.setInt(1, id_author);
             ResultSet rs = ps.executeQuery();
-            if (rs.next()) {
+            while (rs.next()) {
                 return new Blog(
                         rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getString(4)
                 );

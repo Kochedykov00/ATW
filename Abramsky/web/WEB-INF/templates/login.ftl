@@ -1,6 +1,10 @@
 <#include "base.ftl"/>
 <#macro content>
 
+    <head>
+        <title>Sign in</title>
+    </head>
+
 
 
     <br /><br />

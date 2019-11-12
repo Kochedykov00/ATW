@@ -2,6 +2,11 @@
 
 <#macro content>
     <html>
+
+    <head>
+        <title>Create blog</title>
+    </head>
+
     <body>
 
     <br /><br />
@@ -9,7 +14,7 @@
         <h1 class="mb-lg-5"><img src="../photo/add_blog.png">&nbsp;&nbsp;Create blog</h1>
     </div>
     <br />
-    <form name="" action="" method="post">
+    <form  method="post">
         <div class="container">
             <div class="row" id="inputInformation">
                 <div class="col-2">

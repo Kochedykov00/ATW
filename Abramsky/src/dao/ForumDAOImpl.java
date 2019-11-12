@@ -48,7 +48,7 @@ public class ForumDAOImpl implements ForumDAO{
             con = Database.getConnection();
 
 
-            ps = con.prepareStatement("select * from discussions ");
+            ps = con.prepareStatement("select * from discussions order by id desc LIMIT 8");
             ResultSet rs = ps.executeQuery();
             while (rs.next()) {
                 String s = rs.getString(6);

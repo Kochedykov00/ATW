@@ -106,6 +106,34 @@ public class ArticleDAOImpl implements ArticleDAO {
         return status;
 }
 
+    public int updateArticle(Article a, Integer id) {
+        int status = 0;
+        try {
+            Connection conn ;
+            conn = Database.getConnection();
+            String date = a.getDate().toString();
+            PreparedStatement ps;
+            String value = id.toString();
+            String query =  "UPDATE   articles SET user_id=?, author=?, title=?, text=?, date=?, rating=?, photopath=? WHERE id_title ="+value;
+            ps = conn.prepareStatement(query);
+            ps.setInt(1, a.getUser_id());
+            ps.setString(2, a.getAuthor());
+            ps.setString(3, a.getTitle());
+            ps.setString(4, a.getText());
+            ps.setString(5, date);
+            ps.setInt(6, a.getRating());
+            ps.setString(7,a.getPhotoPath());
+
+            status = ps.executeUpdate();
+            conn.close();
+        }
+        catch(Exception e) {
+            System.out.println(e);
+        }
+
+        return status;
+    }
+
     public Article getArticle(int id) {
 
         try {

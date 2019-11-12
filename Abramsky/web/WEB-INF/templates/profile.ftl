@@ -1,6 +1,12 @@
 <#include "base.ftl" />
 
 <#macro content>
+
+    <head>
+    <title>Profile</title>
+    </head>
+
+
     <div class="container-fluid profile-page-container">
     <div class="col-11">
         <div class="row profile">
@@ -40,16 +46,17 @@
                     <div class="col-5">
                         <label for="blog">Blog :</label>
                     </div>
-                    <#if blog ??>
+                    <#if blog??>
                     <div class="col-6">
                         <div class="row">
                             <h4 id="blog">${blog.getName()}</h4>
 
-                                <button type="submit" class="btn btn-outline-primary"><a class="articleHref" href="/blog?id=${blog.getId_blog()}">go over</a></button>
+                            &nbsp;&nbsp;&nbsp;<button type="submit" class="btn btn-outline-primary"><a class="articleHref" href="/blog?id=${blog.getId_blog()}">go over</a></button>
                             </form>
                         </div>
                     </div>
                         </#if>
+
                 </div>
 
             </div>

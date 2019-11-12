@@ -1,9 +1,16 @@
 <#include "base.ftl" />
 
 <#macro content>
+
+    <head>
+        <title>My blog</title>
+    </head>
+
+    <#if blog??>
     <div id="nameOfBlog">
         <h1 class="mb-lg-5">${blog.getName()}</h1>
     </div>
+
     <#list article as a>
 
     <div class="container-fluid page-container">
@@ -37,6 +44,13 @@
            style="background-color: rgba(59,72,148,0.91); margin-left: 40%;"
            href="/create_article" role="button" >&nbsp;&nbsp;&nbsp;Create article&nbsp;&nbsp;&nbsp;</a>
     </div>
+        <#else >
+            <div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="btn btn-primary border-black  btn-lg px-15 "
+                                                                               style="background-color: rgba(59,72,148,0.91); margin-left: 40%;"
+                                                                               href="/create_blog" role="button" >&nbsp;&nbsp;&nbsp;Create blog&nbsp;&nbsp;&nbsp;</a>
+            </div>
+    </#if>
 
 </#macro>
 

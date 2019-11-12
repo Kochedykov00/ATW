@@ -3,7 +3,6 @@ package servlets;
 import dao.StudentDAOImpl;
 import dao.UserDAO;
 import dao.UserDAOImpl;
-import models.Student;
 import models.User;
 
 import javax.servlet.annotation.MultipartConfig;

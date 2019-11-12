@@ -15,8 +15,9 @@ import javax.servlet.http.*;
 import java.io.File;
 import java.io.IOException;
 import java.util.Date;
+import javax.servlet.annotation.MultipartConfig;
 
-@WebServlet(name = "CreateArticleServlet")
+@MultipartConfig
 public class CreateArticleServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String name = request.getParameter("name");
@@ -36,6 +37,24 @@ public class CreateArticleServlet extends HttpServlet {
         Date date = new Date();
         article.setDate(date);
         article.setRating(0);
+
+        Part p = request.getPart("photo");
+        if (p != null) {
+
+            String localdir = "uploads";
+            String pathDir = getServletContext().getRealPath("") + File.separator + localdir;
+            File dir = new File(pathDir);
+            if (!dir.exists()) {
+                dir.mkdir();
+            }
+            String[] filename_data = p.getSubmittedFileName().split("\\.");
+            String filename = Math.random() + "." + filename_data[filename_data.length - 1];
+            String fullpath = pathDir + File.separator + filename;
+            p.write(fullpath);
+            article.setPhotoPath("/" + localdir + "/" + filename);
+        }
+
+
 
 
         ArticleDAO ad = new ArticleDAOImpl();

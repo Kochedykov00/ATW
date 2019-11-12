@@ -28,11 +28,17 @@ public class MyBlogServlet extends HttpServlet {
         HttpSession session = request.getSession();
         Integer user = (Integer) session.getAttribute("current_user");
         BlogDAO bd = new BlogDAOImpl();
-        Blog blog = bd.getBlogById(user.intValue());
-        List<Article> articles = bd.getListOfArticleByIdOfAuthor(user.intValue());
-        Map<String, Object> root = new HashMap<>();
-        root.put ("blog",blog);
-        root.put("article",articles);
-        render(request, response, "blog.ftl", root );
+        Blog blog = bd.getBlogByIdAuthor(user.intValue());
+        if (blog == null) {
+            response.sendRedirect("/create_blog");
+        }
+        else {
+            List<Article> articles = bd.getListOfArticleByIdOfAuthor(user.intValue());
+            Map<String, Object> root = new HashMap<>();
+            root.put("blog", blog);
+            root.put("article", articles);
+
+            render(request, response, "blog.ftl", root);
+        }
     }
 }

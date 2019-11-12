@@ -9,7 +9,7 @@
       <Comment>default administrative connection database</Comment>
       <StateNumber>567</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>998</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1037</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
       <Relations>sequence|table|24619|24621|1
@@ -107,7 +107,7 @@ sequence|table|24711|24713|1
       <Comment>standard public schema</Comment>
       <StateNumber>360</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>999</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1038</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -228,7 +228,7 @@ sequence|table|24711|24713|1
     <table id="34" parent="18" name="comments">
       <ObjectId>24722</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>995</StateNumber>
+      <StateNumber>1036</StateNumber>
     </table>
     <table id="35" parent="18" name="discussions">
       <ObjectId>24713</ObjectId>
@@ -386,11 +386,10 @@ sequence|table|24711|24713|1
       <StateNumber>992</StateNumber>
       <TypeId>23</TypeId>
     </column>
-    <column id="59" parent="34" name="text ">
-      <Position>5</Position>
+    <column id="59" parent="34" name="text">
+      <Position>6</Position>
       <DataType>varchar|0s</DataType>
-      <NotNull>1</NotNull>
-      <StateNumber>995</StateNumber>
+      <StateNumber>1036</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="60" parent="35" name="id">

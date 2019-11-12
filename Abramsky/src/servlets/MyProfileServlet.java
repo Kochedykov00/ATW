@@ -31,7 +31,7 @@ public class MyProfileServlet extends HttpServlet {
         Integer id = (Integer) session.getAttribute("current_user");
         //String submitType = request.getParameter("button");
         BlogDAO bd = new BlogDAOImpl();
-        Blog blog = bd.getBlogById(id.intValue());
+        Blog blog = bd.getBlogByIdAuthor(id.intValue());
 
 
 

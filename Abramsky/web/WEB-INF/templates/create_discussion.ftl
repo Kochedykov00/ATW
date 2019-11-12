@@ -2,6 +2,10 @@
 
 <#macro content>
 
+    <head>
+        <title>Create discussion</title>
+    </head>
+
     </br> </br>
 
     <div class="mt-7">

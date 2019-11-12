@@ -42,7 +42,7 @@ public class ProfileServlet extends HttpServlet {
         User user = ((UserDAOImpl) ud).getUserById(id);
 
         BlogDAO bd = new BlogDAOImpl();
-        Blog blog = bd.getBlogById(id);
+        Blog blog = bd.getBlogByIdAuthor(id);
 
             root.put("blog", blog);
 

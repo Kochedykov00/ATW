@@ -1,6 +1,11 @@
 <#include "base.ftl"/>
 
 <#macro content>
+<head>
+    <title>Edit</title>
+</head>
+
+
     <form method="post" enctype="multipart/form-data">
     <div class="container-fluid profile-page-container">
             <div class="col-11">

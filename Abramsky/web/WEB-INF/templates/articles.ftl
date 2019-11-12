@@ -3,6 +3,10 @@
 
 <#macro content>
 
+    <head>
+        <title>Main</title>
+    </head>
+
 
 
 <body>

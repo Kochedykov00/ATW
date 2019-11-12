@@ -1,6 +1,12 @@
 <#include "base.ftl" />
 
 <#macro content>
+
+    <head>
+        <title>Discussions</title>
+    </head>
+
+
     <html>
     <body>
 
@@ -24,7 +30,8 @@
                             <div class="row" style="overflow: auto; max-width: 600px;">
                                 <div><a class="articleHref1" href="/profile?id=${d.id_author}">${d.author}</a></div>
                                 <div><a style="margin-left: 42%" class="articleHref1" href="/discussion?id=${d.id}" >${d.name}</a></div>
-                                <div><h6 style="margin-left: 322%; margin-top: 4%">${d.date}</h6></div>
+
+
 
                             </div>
 
@@ -33,8 +40,13 @@
                 </div>
             </div>
         </div>
-        </#list >
+        </#list>
     </div>
+
+
+
+    </br></br></br></br></br></br></br></br></br>
+
     <div>
         <a class="btn btn-primary border-black  btn-lg px-15 "
            style="background-color: rgba(59,72,148,0.91); margin-left: 40%;"

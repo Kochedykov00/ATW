@@ -37,10 +37,12 @@ public class AnotherBlogServlet extends HttpServlet {
         }
         BlogDAO bd = new BlogDAOImpl();
         Blog blog = bd.getBlogById(id);
+        List<Article> articles = bd.getListOfArticleByIdOfAuthor(blog.getId_author());
 
 
 
             root.put("blog", blog);
+            root.put("article",articles);
 
 
         render(request,response,"anotherBlog.ftl",root);
