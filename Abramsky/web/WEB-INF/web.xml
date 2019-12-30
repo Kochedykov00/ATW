@@ -3,15 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    <servlet>
-        <servlet-name>list</servlet-name>
-        <servlet-class>servlets.StudentListServlet</servlet-class>
-    </servlet>
 
-    <servlet-mapping>
-        <servlet-name>list</servlet-name>
-        <url-pattern>/list</url-pattern>
-    </servlet-mapping>
 
     <servlet>
         <servlet-name>new</servlet-name>
@@ -21,14 +13,6 @@
     <servlet-mapping>
         <servlet-name>new</servlet-name>
         <url-pattern>/new</url-pattern>
-    </servlet-mapping>
-    <servlet>
-        <servlet-name>searchPage</servlet-name>
-        <servlet-class>servlets.SearchPageServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>searchPage</servlet-name>
-        <url-pattern>/search</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -140,6 +124,15 @@
         <url-pattern>/create_article</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>logout</servlet-name>
+        <servlet-class>servlets.LogOutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
 
     <servlet>
         <servlet-name>AnotherBlogPage</servlet-name>
@@ -149,6 +142,17 @@
         <servlet-name>AnotherBlogPage</servlet-name>
         <url-pattern>/blog</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>SearchPage</servlet-name>
+        <servlet-class>servlets.SearchPageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SearchPage</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+
 
 
 

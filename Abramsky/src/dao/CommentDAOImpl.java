@@ -9,7 +9,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class CommentDAOImpl implements CommentDAO {
@@ -32,6 +31,7 @@ public class CommentDAOImpl implements CommentDAO {
                 ));
 
             }
+            conn.close();
             return comments;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -54,6 +54,7 @@ public class CommentDAOImpl implements CommentDAO {
                 comments.add(new Comment(
                         rs.getInt(1),rs.getString(2),rs.getInt(3),rs.getInt(4),rs.getString(5)
                 ));
+                conn.close();
 
             }
             return comments;

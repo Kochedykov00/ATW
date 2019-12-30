@@ -4,6 +4,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+
 public class Main extends Application {
 
     public static Stage stage;
@@ -13,9 +14,9 @@ public class Main extends Application {
 
         stage = primaryStage;
 
-        Parent root = (Parent)FXMLLoader.load(this.getClass().getResource("views/Menu.fxml"));
+        Parent root = (Parent)FXMLLoader.load(this.getClass().getResource("../views/Menu.fxml"));
         primaryStage.setTitle("MySnakes");
-        primaryStage.setScene(new Scene(root, 880.0D, 880.0D));
+        primaryStage.setScene(new Scene(root, 1080.0D, 1080.0D));
         primaryStage.setResizable(false);
         primaryStage.sizeToScene();
         primaryStage.show();

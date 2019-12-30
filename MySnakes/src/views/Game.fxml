@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="970.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GameController">
+    <Pane fx:id="table" layoutY="90.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="880.0" prefWidth="880.0"  xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+        <children>
+            <ImageView fx:id="b_castle1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="40.0" y="40.0">
+                <image>
+                    <Image url="@../resources/b_castle.png" />
+                </image></ImageView>
+            <ImageView fx:id="b_horse1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="140.0" y="40.0">
+                <image>
+                    <Image url="@../resources/b_hourse.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_elephant1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="240.0" y="40.0">
+                <image>
+                    <Image url="@../resources/b_elephant.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_queen" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="340.0" y="40.0">
+                <image>
+                    <Image url="@../resources/b_queen.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_king" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="440.0" y="40.0">
+                <image>
+                    <Image url="@../resources/b_king.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_elephant2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="540.0" y="40.0">
+                <image>
+                    <Image url="@../resources/b_elephant.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_horse2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="640.0" y="40.0">
+                <image>
+                    <Image url="@../resources/b_hourse.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_castle2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="740.0" y="40.0">
+                <image>
+                    <Image url="@../resources/b_castle.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_pawn1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="40.0" y="140.0">
+                <image>
+                    <Image url="@../resources/b_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_pawn2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="140.0" y="140.0">
+                <image>
+                    <Image url="@../resources/b_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_pawn3" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="240.0" y="140.0">
+                <image>
+                    <Image url="@../resources/b_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_pawn4" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="340.0" y="140.0">
+                <image>
+                    <Image url="@../resources/b_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_pawn5" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="440.0" y="140.0">
+                <image>
+                    <Image url="@../resources/b_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_pawn6" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="540.0" y="140.0">
+                <image>
+                    <Image url="@../resources/b_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_pawn7" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="640.0" y="140.0">
+                <image>
+                    <Image url="@../resources/b_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="b_pawn8" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="740.0" y="140.0">
+                <image>
+                    <Image url="@../resources/b_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_pawn1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="40.0" y="640.0">
+                <image>
+                    <Image url="@../resources/w_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_pawn2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="140.0" y="640.0">
+                <image>
+                    <Image url="@../resources/w_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_pawn3" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="240.0" y="640.0">
+                <image>
+                    <Image url="@../resources/w_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_pawn4" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="340.0" y="640.0">
+                <image>
+                    <Image url="@../resources/w_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_pawn5" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="440.0" y="640.0">
+                <image>
+                    <Image url="@../resources/w_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_pawn6" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="540.0" y="640.0">
+                <image>
+                    <Image url="@../resources/w_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_pawn7" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="640.0" y="640.0">
+                <image>
+                    <Image url="@../resources/w_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_pawn8" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="740.0" y="640.0">
+                <image>
+                    <Image url="@../resources/w_pawn.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_castle1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="40.0" y="740.0">
+                <image>
+                    <Image url="@../resources/w_castle.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_horse1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="140.0" y="740.0">
+                <image>
+                    <Image url="@../resources/w_hourse.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_elephant1" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="240.0" y="740.0">
+                <image>
+                    <Image url="@../resources/w_elephant.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_queen" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="340.0" y="740.0">
+                <image>
+                    <Image url="@../resources/w_queen.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_king" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="440.0" y="740.0">
+                <image>
+                    <Image url="../resources/w_king.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_elephant2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="540.0" y="740.0">
+                <image>
+                    <Image url="@../resources/w_elephant.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_horse2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="640.0" y="740.0">
+                <image>
+                    <Image url="@../resources/w_hourse.png" />
+                </image>
+            </ImageView>
+            <ImageView fx:id="w_castle2" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" x="740.0" y="740.0">
+                <image>
+                    <Image url="@../resources/w_castle.png" />
+                </image>
+            </ImageView>
+        </children>
+    </Pane>
+    <Button fx:id="menuBtn" layoutX="751.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#toMenu" prefHeight="46.0" prefWidth="115.0" text="To menu" />
+    <Button fx:id="giveUpBtn" layoutX="628.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#giveUp" prefHeight="46.0" prefWidth="115.0" text="Give up" />
+    <Label fx:id="message" layoutX="42.0" layoutY="26.0" prefHeight="38.0" prefWidth="454.0" text="Waiting of second player">
+        <font>
+            <Font size="22.0" />
+        </font>
+    </Label>
+    <Button fx:id="offerDrawBtn" layoutX="506.0" layoutY="22.0" mnemonicParsing="false" onMouseClicked="#draw" prefHeight="46.0" prefWidth="115.0" text="Offer a draw" />
+</Pane>

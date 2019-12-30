@@ -29,6 +29,7 @@ public class ArticleDAOImpl implements ArticleDAO {
                 ));
 
             }
+            conn.close();
             return articles;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -49,6 +50,7 @@ public class ArticleDAOImpl implements ArticleDAO {
                 articles.add(new Article(
                         rs.getInt(1), rs.getInt(8), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getInt(6),rs.getString(7)
                 ));
+                conn.close();
             }
             return articles;
         } catch (SQLException e) {
@@ -69,6 +71,7 @@ public class ArticleDAOImpl implements ArticleDAO {
             while (rs.next()) {
                 articles.add(new Article( rs.getInt(1), rs.getInt(8), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getInt(6),rs.getString(7)
                 ));
+                conn.close();
 
             }
             return articles;
@@ -149,10 +152,33 @@ public class ArticleDAOImpl implements ArticleDAO {
                 article = new Article(
                         rs.getInt(1), rs.getInt(8), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getInt(6),rs.getString(7)
                 );
+                conn.close();
                 return article;
 
             }
 
+        } catch (SQLException e) {
+            e.printStackTrace();
+
+        }
+        return null;
+    }
+
+    public List<Article> getByLikePattern(String pattern) {
+        try {
+            Connection conn = helpers.Database.getConnection();
+            PreparedStatement ps = conn.prepareStatement(
+                    "select * from articles where title like ?"
+            );
+            ps.setString(1, "%" + pattern + "%");
+            ResultSet rs = ps.executeQuery();
+            List<Article> articles = new ArrayList<>();
+            while (rs.next()) {
+                articles.add(new Article(
+                        rs.getInt(1), rs.getInt(8), rs.getString(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getInt(6),rs.getString(7)
+                ));
+            }
+            return articles;
         } catch (SQLException e) {
             e.printStackTrace();
 

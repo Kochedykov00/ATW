@@ -16,11 +16,16 @@
 
 </head>
 
+
+
+
+
+
 <body style="background-color: #d4e3fc">
 
 
 <nav class="navbar navbar-dark bg-company-red" style="background-color: #8eb0fa">
-    <a class="navbar-brand" href="#">Around the world</a>
+    <a class="navbar-brand" href="/main">Around the world</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -42,6 +47,10 @@
 
             <li class="nav-item">
                 <a class="nav-link" href="/myBlog">My blog</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/logout">Log out</a>
             </li>
 
         </ul>

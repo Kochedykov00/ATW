@@ -55,9 +55,9 @@ public class ForumDAOImpl implements ForumDAO{
 
                 Forums forum = new Forums(rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getString(4), rs.getString(5), rs.getString(6));
                 forums.add(forum);
-
-                con.close();
             }
+                con.close();
+
             return forums;
         } catch (Exception e) {
             System.out.println(e);
@@ -82,6 +82,7 @@ public class ForumDAOImpl implements ForumDAO{
                     );
                     return forums;
                 }
+                conn.close();
             } catch (SQLException e) {
                 e.printStackTrace();
 

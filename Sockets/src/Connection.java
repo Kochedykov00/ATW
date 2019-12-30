@@ -24,8 +24,9 @@ public class Connection implements Runnable {
             try {
 
                 os.write((byte) r.nextInt(1000));
-                Thread.sleep(1000);
-            } catch (IOException e) {
+                Thread.sleep(100000);
+            }
+            catch (IOException e) {
                 e.printStackTrace();
             } catch (InterruptedException e) {
                 e.printStackTrace();

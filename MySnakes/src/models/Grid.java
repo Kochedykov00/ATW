@@ -8,7 +8,7 @@ public class Grid {
 
 
 
-        public static final int SIZE = 20;
+       /* public static final int SIZE = 20;
         public static final Color COLOR = new Color(0.1, 0.1, 0.1, 1);
 
         private final int cols;     // The number of columns
@@ -80,6 +80,7 @@ public class Grid {
         public Food getFood() {
             return food;
         }
+        */
 }
 
 

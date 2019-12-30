@@ -11,17 +11,17 @@
             <font>
                 <Font size="23.0" />
             </font></Button>
-        <Label alignment="CENTER" layoutX="242.0" layoutY="75.0" prefHeight="32.0" prefWidth="396.0" text="Chess Online">
+        <Label alignment="CENTER" layoutX="242.0" layoutY="75.0" prefHeight="32.0" prefWidth="396.0" text="Hello user">
             <font>
                 <Font name="System Bold" size="37.0" />
             </font>
         </Label>
-        <Button fx:id="createBtn"  layoutX="288.0" layoutY="260.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="304.0" text="create room">
+        <Button fx:id="createBtn"  layoutX="288.0" layoutY="260.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="304.0" text="create game">
             <font>
                 <Font size="23.0" />
             </font>
         </Button>
-        <Button fx:id="connectBtn"  layoutX="288.0" layoutY="360.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="304.0" text="connect to room">
+        <Button fx:id="connectBtn"  layoutX="288.0" layoutY="360.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="304.0" text="sign in">
             <font>
                 <Font size="23.0" />
             </font>

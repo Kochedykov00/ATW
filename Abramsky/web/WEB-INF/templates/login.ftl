@@ -33,6 +33,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6" align="right">
+                    <input type="checkbox" name="rememberMe">rememberMe</input>
                     <a class="btn btn-primary border-black mx-4 btn-lg px-15 mt-4"
                        style="background-color: rgba(59,72,148,0.91)"
                        href="/register" role="button">&nbsp;&nbsp;&nbsp;Sign up&nbsp;&nbsp;&nbsp;</a>

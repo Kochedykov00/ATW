@@ -7,7 +7,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Stage;
-import Main;
+import ;
 
 public class MenuController {
 
@@ -28,13 +28,14 @@ public class MenuController {
 
     public void settings() throws Exception {
         Stage stage = Main.getPrimaryStage();
-        stage.getScene().setRoot((Parent) FXMLLoader.load(Main.class.getResource("views/Settings.fxml")));
-        stage.sizeToScene();
+        stage.getScene().setRoot((Parent) FXMLLoader.load(Main.class.getResource("../views/Settings.fxml")));
+        stage.isFullScreen();
+
     }
 
     public void randomGame() throws Exception {
         Stage stage = Main.getPrimaryStage();
-        stage.setScene(new Scene((Parent)FXMLLoader.load(Main.class.getResource("views/Game.fxml")), 880.0D, 970.0D));
+        stage.setScene(new Scene((Parent)FXMLLoader.load(Main.class.getResource("../views/Game.fxml")), 880.0D, 970.0D));
         //NetWorkClient.getCurrentNetwork().randomGame();
     }
 

@@ -27,6 +27,7 @@ public class BlogDAOImpl implements BlogDAO {
                         rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getString(4)
                 );
             }
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
 
@@ -47,6 +48,7 @@ public class BlogDAOImpl implements BlogDAO {
                         rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getString(4)
                 );
             }
+            conn.close();
         } catch (SQLException e) {
             e.printStackTrace();
 
@@ -69,6 +71,7 @@ public class BlogDAOImpl implements BlogDAO {
                 ));
 
             }
+            conn.close();
             return articles;
         } catch (NullPointerException e) {
             e.printStackTrace();
@@ -95,8 +98,6 @@ public class BlogDAOImpl implements BlogDAO {
             status = ps.executeUpdate();
             con.close();
 
-
-            con.close();
         } catch (Exception e) {
             System.out.println(e);
         }

@@ -1,6 +1,5 @@
 package servlets;
 
-import dao.StudentDAOImpl;
 import dao.UserDAO;
 import dao.UserDAOImpl;
 import models.User;
@@ -17,12 +16,10 @@ import static helpers.FreemarkerHelper.render;
 @MultipartConfig
 public class NewServlet extends HttpServlet {
 
-    private StudentDAOImpl studentDAO;
+
 
     @Override
-    public void init() {
-        studentDAO = new StudentDAOImpl();
-    }
+
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();

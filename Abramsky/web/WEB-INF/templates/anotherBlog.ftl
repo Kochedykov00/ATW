@@ -31,7 +31,7 @@
                     <img src="../photo/article_photo.png" class="small-photo1">
                     <div class="lastArtBody">
                         <div style="overflow: auto; max-width: 300px;">
-                            <div><a class="articleHref1" href="/article?id=${a.user_id}">${a.title}</a></div>
+                            <div><a class="articleHref1" href="/article?id=${a.title_id}">${a.title}</a></div>
                             <div><a class="articleHref1" href="/profile?id=${a.user_id}">${a.author}</a></div>
                             <br/>
                             <div><h6>${a.date}</h6></div>

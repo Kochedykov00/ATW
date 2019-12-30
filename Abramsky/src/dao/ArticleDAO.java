@@ -15,4 +15,5 @@ public interface ArticleDAO {
     public List<Article> selectTopRating ();
     public List<Article> selectTopDate ();
     public int updateArticle(Article a, Integer id);
+    public List<Article> getByLikePattern(String pattern);
 }

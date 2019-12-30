@@ -36,16 +36,18 @@
                 <div class="textArt text-div">
                     ${article.getText()}
                 </div>
+                <form method="post" class="addRating">
                 <div class="row" >
                     <div class="row" style="font-size: large; margin-top: 5%;">
                         <div class="col-9">
 
                         </div>
                         <div class="col-3">
-                            <h4 id="rating"></h4>
+                            <h4 id="rating">rating ${article.getRating()}</h4>
+                            <input type="submit" name="rating" class="btn btn-outline-primary" value="plus"/>
                         </div>
                     </div>
-                    <form method="post" style="margin-top: 4%;margin-left: 40%">
+
 
                         </div>
                     </form>

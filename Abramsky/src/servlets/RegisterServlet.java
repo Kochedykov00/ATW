@@ -10,6 +10,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.math.BigInteger;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -26,33 +29,42 @@ public class RegisterServlet extends HttpServlet {
         u = new User();
         String patternEmail = "^([a-z0-9_-]+\\.)*[a-z0-9_-]+@[a-z0-9_-]+(\\.[a-z0-9_-]+)*\\.[a-z]{2,6}$";
         String PatternPassword = "^[a-z0-9]+";
+        MessageDigest messageDigest = null;
+        byte[] digest = new byte[0];
 
-        Pattern pattern = Pattern.compile(patternEmail);
-        Pattern pattern1 = Pattern.compile(PatternPassword);
 
-        Matcher m1 = pattern.matcher(request.getParameter("email"));
-        Matcher m2 = pattern1.matcher(request.getParameter("password"));
-
-        if (m1.find()) {
-            u.setEmail(request.getParameter("email"));
-        }
-        else {
-            response.sendRedirect("/register");
-        }
-
-        if (m2.find()) {
-            u.setPassword(request.getParameter("password"));
-        }
-        else {
-            response.sendRedirect("/register");
-        }
 
             u.setUsername(request.getParameter("username"));
             u.setLastName(request.getParameter("lastname"));
             u.setFirstName(request.getParameter("firstname"));
-            int status = customerDAO.insertUser(u);
+            u.setPassword(request.getParameter("password"));
+            u.setEmail(request.getParameter("email"));
+
             //request.setAttribute("successMessage","register has been completed");
-            response.sendRedirect("/login");
+
+
+
+        try {
+            messageDigest = MessageDigest.getInstance("MD5");
+            messageDigest.reset();
+            messageDigest.update(u.getPassword().getBytes());
+            digest = messageDigest.digest();
+        } catch (NoSuchAlgorithmException e) {
+            // тут можно обработать ошибку
+            // возникает она если в передаваемый алгоритм в getInstance(,,,) не существует
+            e.printStackTrace();
+        }
+
+        BigInteger bigInt = new BigInteger(1, digest);
+        String md5Hex = bigInt.toString(16);
+
+        while( md5Hex.length() < 32 ){
+            md5Hex = "0" + md5Hex;
+        }
+
+        u.setPassword(md5Hex);
+        int status = customerDAO.insertUser(u);
+        response.sendRedirect("/login");
         }
 
 

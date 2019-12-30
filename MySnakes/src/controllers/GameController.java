@@ -1,4 +1,4 @@
-package controllers;
+package controllers ;
 
 public class GameController {
 
